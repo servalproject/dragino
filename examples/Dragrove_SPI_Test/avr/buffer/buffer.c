@@ -20,7 +20,10 @@
 // $Id$
 
 #include "buffer.h"
-#include "global.h"
+//#include "global.h"
+#ifndef cli
+	#define cli()			__asm__ __volatile__ ("cli" ::)
+#endif
 #include "avr/io.h"
 
 #ifndef CRITICAL_SECTION_START
