@@ -1,0 +1,12 @@
+To set up a customized OpenWRT Backfire build environment for Dragino projects, just run:
+. ./install.sh /your/preferred/backfire/installation/path
+
+Then:
+	cd /your/preferred/backfire/installation/path
+run:
+	make -j8
+
+to compile the firmware for Dragino. you will get the firmware in
+/your/preferred/backfire/installation/path/build_dir/linux-atheros
+
+Have Fun!

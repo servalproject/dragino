@@ -1,0 +1,46 @@
+#  ddns.pot
+#  generated from ./i18n/english/luasrc/i18n/ddns.en.lua
+
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:1
+#. Dynamic DNS
+msgid "ddns"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:2
+#. Dynamic DNS allows that your router can be reached with a fixed hostname while having a dynamically changing IP-Address.
+msgid "ddns_desc"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:3
+#. Source of IP-Address
+msgid "ddns_service_ipsource"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:4
+#. Check for changed IP every
+msgid "ddns_service_checkinterval"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:5
+#. Check-Time unit
+msgid "ddns_service_checkunit"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:6
+#. Force update every
+msgid "ddns_service_forceinterval"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:7
+#. Force-Time unit
+msgid "ddns_service_forceunit"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ddns.en.lua:8
+#. Custom Update-URL
+msgid "ddns_service_updateurl"
+msgstr ""
+

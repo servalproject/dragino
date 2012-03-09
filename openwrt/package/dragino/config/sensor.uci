@@ -1,0 +1,46 @@
+
+config 'settings' 'pachube'
+	option 'enable_update' '0'
+	option 'api_url' 'http://api.pachube.com/v2/feeds/'
+	option 'feed' ''
+	option 'apikey' ''
+	option 'user' ''
+
+config 'settings' 'main'
+	option 'enable_local_record' '0'
+	option 'record_file' '/var/log/sensor.log'
+	option 'record_file_size' '10e4'
+	option 'update_interval' '60'
+
+config 'sensorport' 'port1'
+	option 'description' 'sensor port 1'
+	option 'name' 'sensor1'
+
+config 'sensorport' 'port2'
+	option 'description' 'sensor port 2'
+	option 'name' 'sensor2'
+
+config 'sensorport' 'port3'
+	option 'name' 'sensor3'
+	option 'description' 'sensor port 3'
+
+config 'sensorport' 'port4'
+	option 'name' 'sensor4'
+	option 'description' 'sensor port 4'
+
+config 'sensorport' 'port5'
+	option 'name' 'sensor5'
+	option 'description' 'sensor port 5'
+
+config 'sensorport' 'port6'
+	option 'name' 'sensor6'
+	option 'description' 'sensor port 6'
+
+config 'cmd' 'cmd1'
+	option 'name' 'cmd1'
+	option 'description' 'command line 1'
+
+config 'cmd' 'cmd2'
+	option 'name' 'cmd2'
+	option 'description' 'command line 2'
+

@@ -1,0 +1,46 @@
+#  ushare.pot
+#  generated from ./i18n/english/luasrc/i18n/ushare.en.lua
+
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:1
+#. Content directories
+msgid "content_directories"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:2
+#. Disable telnet console
+msgid "disable_telnet"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:3
+#. Disable webinterface
+msgid "disable_webif"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:4
+#. Options
+msgid "options"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:5
+#. Servername
+msgid "servername"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:6
+#. Settings
+msgid "settings"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:7
+#. uShare
+msgid "ushare"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/ushare.en.lua:8
+#. uShare
+msgid "ushare_desc"
+msgstr ""
+

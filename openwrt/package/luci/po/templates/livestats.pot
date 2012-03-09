@@ -1,0 +1,41 @@
+#  livestats.pot
+#  generated from ./i18n/english/luasrc/i18n/livestats.en.lua
+
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:1
+#. incoming
+msgid "livestats_incoming"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:2
+#. outgoing
+msgid "livestats_outgoing"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:3
+#. traffic on
+msgid "livestats_traffic"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:4
+#. signal-to-noise ratio for
+msgid "livestats_wifi"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:5
+#. load average
+msgid "livestats_loadavg"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:6
+#. Realtime Wireless Status
+msgid "livestats_stat_wireless"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/livestats.en.lua:7
+#. Realtime Network Traffic
+msgid "livestats_stat_traffic"
+msgstr ""
+

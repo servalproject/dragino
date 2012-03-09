@@ -1,0 +1,37 @@
+#!/bin/sh /etc/rc.common
+# Copyright (c) 2012 Edwin Chen <edwin@dragino.com>
+
+START=98
+load_config()
+{
+        uci set system.@system[0].key=$(hexdump -v -e '1/1 "%.2x"' -s $((0x11000)) -n 16 /dev/mtd6)
+        uci set system.@system[0].device=$(hexdump -v -e '1/1 "%.2x"' -s $((0x11020)) -n 16 /dev/mtd6)
+        uci set system.@system[0].hostname=dragino-$(hexdump -v -e '1/1 "%.2x"' -s $((0x11020)) -n 3 /dev/mtd6)
+	
+	uci set system.@system[0].firstboot='0'
+	uci commit
+
+}
+
+start()
+{
+	FIRSTBOOT=$(uci get system.@system[0].firstboot)
+
+	if [ $FIRSTBOOT -eq '1' ]
+	then
+		load_config
+	fi
+	#fallback IP
+	ip a add 172.31.255.254/30 brd 172.31.255.255 dev eth0 label eth0:fallback
+	ip link set eth0:fallback up
+
+	chmod 666 /dev/spidev0.0
+
+	/usr/sbin/pachubed 
+}
+
+stop()
+{
+	/usr/sbin/pachubed -k
+	rm -rf /var/run/pachubed
+}

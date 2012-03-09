@@ -1,0 +1,516 @@
+#  default.pot
+#  generated from ./i18n/english/luasrc/i18n/default.en.lua
+
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:1
+#. Skip to navigation
+msgid "skiplink1"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:2
+#. Skip to content
+msgid "skiplink2"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:3
+#. Navigation
+msgid "navigation"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:4
+#. About
+msgid "about"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:5
+#. Add
+msgid "add"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:6
+#. Addresses
+msgid "addresses"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:7
+#. Aliases
+msgid "aliases"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:8
+#. all
+msgid "all"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:9
+#. back
+msgid "back"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:10
+#. Administration
+msgid "administration"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:11
+#. Essentials
+msgid "essentials"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:12
+#. Apply
+msgid "apply"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:13
+#. Basic Settings
+msgid "basicsettings"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:14
+#. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Broadcast
+msgid "broadcast"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:15
+#. Changes
+msgid "changes"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:16
+#. Channel
+msgid "channel"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:17
+#. <abbr title=\"Classless Inter-Domain Routing\">CIDR</abbr>-Notation: address/prefix
+msgid "cidr6"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:18
+#. Code
+msgid "code"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:19
+#. Configuration
+msgid "config"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:20
+#. Configuration file
+msgid "configfile"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:21
+#. Confirmation
+msgid "confirmation"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:22
+#. Delete
+msgid "delete"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:23
+#. Description
+msgid "descr"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:24
+#. Design
+msgid "design"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:25
+#. Destination
+msgid "destination"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:26
+#. Device
+msgid "device"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:27
+#. Devices
+msgid "devices"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:28
+#. disable
+msgid "disable"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:29
+#. Distance
+msgid "distance"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:30
+#. Kernel Log
+msgid "dmesg"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:31
+#. <abbr title=\"Domain Name System\">DNS</abbr>-Server
+msgid "dnsserver"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:32
+#. Edit
+msgid "edit"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:33
+#. enable
+msgid "enable"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:34
+#. Encryption
+msgid "encryption"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:35
+#. Error
+msgid "error"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:36
+#. Filesystem
+msgid "filesystem"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:37
+#. Filter
+msgid "filter"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:38
+#. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Gateway
+msgid "gateway"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:39
+#. <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Gateway
+msgid "gateway6"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:40
+#. General
+msgid "general"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:41
+#. Hostname
+msgid "hostname"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:42
+#. Install
+msgid "install"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:43
+#. installed
+msgid "installed"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:44
+#. Interface
+msgid "interface"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:45
+#. Interfaces
+msgid "interfaces"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:46
+#. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Address
+msgid "ipaddress"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:47
+#. <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Address
+msgid "ip6address"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:48
+#. Legend
+msgid "legend"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:49
+#. Library
+msgid "library"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:50
+#. Logout
+msgid "logout"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:51
+#. Key
+msgid "key"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:52
+#. Language
+msgid "language"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:53
+#. Limit
+msgid "limit"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:54
+#. Load
+msgid "load"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:55
+#. Login
+msgid "login"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:56
+#. <abbr title=\"Media Access Control\">MAC</abbr>-Address
+msgid "macaddress"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:57
+#. see &#39;%s&#39; manpage
+msgid "manpage"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:58
+#. Metric
+msgid "metric"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:59
+#. Mode
+msgid "mode"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:60
+#. Name
+msgid "name"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:61
+#. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Netmask
+msgid "netmask"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:62
+#. Network
+msgid "network"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:63
+#. Networks
+msgid "networks"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:64
+#. none
+msgid "none"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:65
+#. not installed
+msgid "notinstalled"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:66
+#. OK
+msgid "ok"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:67
+#. Options
+msgid "options"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:68
+#. Overview
+msgid "overview"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:69
+#. Package Manager
+msgid "packagemanager"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:70
+#. Password
+msgid "password"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:71
+#. Path
+msgid "path"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:72
+#. Port
+msgid "port"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:73
+#. Ports
+msgid "ports"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:74
+#. Protocol
+msgid "protocol"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:75
+#. Reboot
+msgid "reboot"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:76
+#. Reset
+msgid "reset"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:77
+#. Revert
+msgid "revert"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:78
+#. Save
+msgid "save"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:79
+#. Save &amp; Apply
+msgid "saveapply"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:80
+#. Scan
+msgid "scan"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:81
+#. Service
+msgid "service"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:82
+#. Services
+msgid "services"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:83
+#. Settings
+msgid "settings"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:84
+#. Size
+msgid "size"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:85
+#. Source
+msgid "source"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:86
+#. Start
+msgid "start"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:87
+#. static
+msgid "static"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:88
+#. Status
+msgid "status"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:89
+#. Statistics
+msgid "statistics"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:90
+#. Submit
+msgid "submit"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:91
+#. System Log
+msgid "syslog"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:92
+#. System
+msgid "system"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:93
+#. Target
+msgid "target"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:94
+#. Timezone
+msgid "timezone"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:95
+#. Type
+msgid "type"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:96
+#. Unknown Error
+msgid "unknownerror"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:97
+#. Unsaved Changes
+msgid "unsavedchanges"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:98
+#. Username
+msgid "username"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:99
+#. Version
+msgid "version"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:100
+#. Web <abbr title=\"User Interface\">UI</abbr>
+msgid "webui"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:101
+#. Wifi
+msgid "wifi"
+msgstr ""
+
+#: ./i18n/english/luasrc/i18n/default.en.lua:102
+#. Zone
+msgid "zone"
+msgstr ""
+
