@@ -42,5 +42,8 @@ div.di_sensor a {
 div.di_ddns a {
 	background-image: url(icons/ddns.png);
 }
+div.di_upgrade a {
+	background-image: url(icons/upgrade.png);
+}
 
 }

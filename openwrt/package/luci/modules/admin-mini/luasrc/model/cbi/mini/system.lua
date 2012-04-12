@@ -21,7 +21,7 @@ require("dragino.spid")
 local uci = require "luci.model.uci".cursor()
 
 m = Map("system", translate("system"), "")
-m.pageaction = false
+--m.pageaction = false
 
 s = m:section(TypedSection, "system", translate("general"))
 s.anonymous = true
@@ -60,6 +60,24 @@ s:option(DummyValue, "_memtotal", translate("m_i_memory")).value =
   100 * memfree / memtotal,
   tostring(translate("mem_free", ""))
 )
+
+tz = s:option(ListValue, "zonename", translate("timezone"))
+tz:value("UTC")
+
+for i, zone in ipairs(luci.sys.zoneinfo.TZ) do
+	tz:value(zone[1])
+end
+
+function tz.write(self, section, value)
+	local function lookup_zone(title)
+		for _, zone in ipairs(luci.sys.zoneinfo.TZ) do
+			if zone[1] == title then return zone[2] end
+		end
+	end
+
+	AbstractValue.write(self, section, value)
+	self.map.uci:set("system", section, "timezone", lookup_zone(value) or "GMT0")
+end
  
 s:option(DummyValue, "_systime", translate("m_i_systemtime")).value =
  os.date("%c")
