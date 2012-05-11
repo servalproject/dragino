@@ -57,12 +57,12 @@ config uhttpd main
 	# Configuration file in busybox httpd format
 #	option config	/etc/httpd.conf
 
-config uhttpd restful
-	list listen_http	0.0.0.0:8080
-	option home		/www
-	option cgi_prefix	/sensor
-	option script_timeout	5
-	option network_timeout	5
+#config uhttpd restful
+#	list listen_http	0.0.0.0:8080
+#	option home		/www
+#	option cgi_prefix	/sensor
+#	option script_timeout	5
+#	option network_timeout	5
 
 # Certificate defaults for px5g key generator
 config cert px5g
