@@ -10,7 +10,7 @@ body {
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 101%;
 	line-height: 100%;
-	background: #dddddd;
+	background: #47C5E3;
 }
 
 div#screen {
@@ -81,8 +81,8 @@ code {
 	min-height: 98px;
 	background-image: url(dragino.png);
 	background-repeat: no-repeat;
-	background-position: 12% center;
-	background-color: #dddddd;
+	background-position: 16% 58%;
+	background-color: #47C5E3;
 	color: #ffffff;
 	text-align: right;
 }
@@ -105,7 +105,7 @@ code {
 
 .menubar {
 	clear: both;
-	width: 80%;
+	width: 75%;
 	margin: 0.7em auto;
 	padding: 0.5em;
 	background: #f5f5f5;
@@ -172,7 +172,7 @@ html .menubar a:visited.warning {
 
 #maincontent {
 	clear: both;
-	width: 80%;
+	width: 75%;
 	margin: 0.7em auto;
 	padding: 0.5em;
 	background: #f5f5f5;
@@ -470,6 +470,7 @@ div.cbi-value:hover {
 .cbi-value-title {
 	float: left;
 	width: 40%;
+	margin-top: 4px;
 }
 
 div.cbi-value-field {

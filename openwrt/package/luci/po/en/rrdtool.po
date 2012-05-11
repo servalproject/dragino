@@ -1,350 +1,350 @@
 #  rrdtool.po
-#  generated from ./i18n/english/luasrc/i18n/rrdtool.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/rrdtool.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:1
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:1
 #. %H: Wireless - Signal Noise Ratio
 msgid "stat_dg_title_wireless__signal_noise"
 msgstr "%H: Wireless - Signal Noise Ratio"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:2
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:2
 #. dBm
 msgid "stat_dg_label_wireless__signal_noise"
 msgstr "dBm"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:3
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:3
 #. Noise Level
 msgid "stat_ds_signal_noise"
 msgstr "Noise Level"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:4
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:4
 #. Signal Strength
 msgid "stat_ds_signal_power"
 msgstr "Signal Strength"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:5
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:5
 #. %H: Wireless - Signal Quality
 msgid "stat_dg_title_wireless__signal_quality"
 msgstr "%H: Wireless - Signal Quality"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:6
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:6
 #. n
 msgid "stat_dg_label_wireless__signal_quality"
 msgstr "n"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:7
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:7
 #. Signal Quality
 msgid "stat_ds_signal_quality"
 msgstr "Signal Quality"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:8
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:8
 #. %H: ICMP Roundtrip Times
 msgid "stat_dg_title_ping"
 msgstr "%H: ICMP Roundtrip Times"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:9
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:9
 #. ms
 msgid "stat_dg_label_ping"
 msgstr "ms"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:10
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:10
 #. %di
 msgid "stat_ds_ping"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:11
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:11
 #. %H: Firewall - Processed Packets
 msgid "stat_dg_title_iptables__ipt_packets"
 msgstr "%H: Firewall - Processed Packets"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:12
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:12
 #. Packets/s
 msgid "stat_dg_label_iptables__ipt_packets"
 msgstr "Packets/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:13
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:13
 #. Chain \"%di\"
 msgid "stat_ds_ipt_packets"
 msgstr "Chain \"%di\""
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:14
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:14
 #. %H: Netlink - Transfer on %pi
 msgid "stat_dg_title_netlink__if_octets"
 msgstr "%H: Netlink - Transfer on %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:15
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:15
 #. Bytes/s
 msgid "stat_dg_label_netlink__if_octets"
 msgstr "Bytes/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:16
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:16
 #. Bytes (%ds)
 msgid "stat_ds_if_octets"
 msgstr "Bytes (%ds)"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:17
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:17
 #. %H: Netlink - Packets on %pi
 msgid "stat_dg_title_netlink__if_packets"
 msgstr "%H: Netlink - Packets on %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:18
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:18
 #. Packets/s
 msgid "stat_dg_label_netlink__if_packets"
 msgstr "Packets/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:19
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:19
 #. Processed (%ds)
 msgid "stat_ds_if_packets"
 msgstr "Processed (%ds)"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:20
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:20
 #. Dropped   (%ds)
 msgid "stat_ds_if_dropped"
 msgstr "Dropped   (%ds)"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:21
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:21
 #. Errors    (%ds)
 msgid "stat_ds_if_errors"
 msgstr "Errors    (%ds)"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:22
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:22
 #. %H: Netlink - Multicast on %pi
 msgid "stat_dg_title_netlink__if_multicast"
 msgstr "%H: Netlink - Multicast on %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:23
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:23
 #. Packets/s
 msgid "stat_dg_label_netlink__if_multicast"
 msgstr "Packets/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:24
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:24
 #. Packets
 msgid "stat_ds_if_multicast"
 msgstr "Packets"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:25
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:25
 #. %H: Netlink - Collisions on %pi
 msgid "stat_dg_title_netlink__if_collisions"
 msgstr "%H: Netlink - Collisions on %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:26
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:26
 #. Collisions/s
 msgid "stat_dg_label_netlink__if_collisions"
 msgstr "Collisions/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:27
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:27
 #. Collisions
 msgid "stat_ds_if_collisions"
 msgstr "Collisions"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:28
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:28
 #. %H: Netlink - Errors on %pi
 msgid "stat_dg_title_netlink__if_tx_errors"
 msgstr "%H: Netlink - Errors on %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:29
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:29
 #. Errors/s
 msgid "stat_dg_label_netlink__if_tx_errors"
 msgstr "Errors/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:30
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:30
 #. %di
 msgid "stat_ds_if_tx_errors"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:31
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:31
 #. %di
 msgid "stat_ds_if_rx_errors"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:32
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:32
 #. %H: Processes
 msgid "stat_dg_title_processes"
 msgstr "%H: Processes"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:33
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:33
 #. Processes/s
 msgid "stat_dg_label_processes"
 msgstr "Processes/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:34
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:34
 #. %di
 msgid "stat_ds_ps_state"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:35
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:35
 #. %H: Process %pi - used cpu time
 msgid "stat_dg_title_processes__ps_cputime"
 msgstr "%H: Process %pi - used cpu time"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:36
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:36
 #. Jiffies
 msgid "stat_dg_label_processes__ps_cputime"
 msgstr "Jiffies"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:37
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:37
 #. system
 msgid "stat_ds_ps_cputime__syst"
 msgstr "system"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:38
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:38
 #. user
 msgid "stat_ds_ps_cputime__user"
 msgstr "user"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:39
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:39
 #. %H: Process %pi - threads and processes
 msgid "stat_dg_title_processes__ps_count"
 msgstr "%H: Process %pi - threads and processes"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:40
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:40
 #. Count
 msgid "stat_dg_label_processes__ps_count"
 msgstr "Count"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:41
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:41
 #. %ds
 msgid "stat_ds_ps_count"
 msgstr "%ds"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:42
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:42
 #. %H: Process %pi - page faults
 msgid "stat_dg_title_processes__ps_pagefaults"
 msgstr "%H: Process %pi - page faults"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:43
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:43
 #. Pagefaults
 msgid "stat_dg_label_processes__ps_pagefaults"
 msgstr "Pagefaults"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:44
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:44
 #. page faults
 msgid "stat_ds_ps_pagefaults"
 msgstr "page faults"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:45
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:45
 #. %H: Process %pi - virtual memory size
 msgid "stat_dg_title_processes__ps_rss"
 msgstr "%H: Process %pi - virtual memory size"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:46
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:46
 #. Bytes
 msgid "stat_dg_label_processes__ps_rss"
 msgstr "Bytes"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:47
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:47
 #. virtual memory
 msgid "stat_ds_ps_rss"
 msgstr "virtual memory"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:48
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:48
 #. %H: Usage on Processor #%pi
 msgid "stat_dg_title_cpu"
 msgstr "%H: Usage on Processor #%pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:49
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:49
 #. %
 msgid "stat_dg_label_cpu"
 msgstr "%"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:50
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:50
 #. %di
 msgid "stat_ds_cpu"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:51
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:51
 #. %H: Transfer on %di
 msgid "stat_dg_title_interface__if_octets"
 msgstr "%H: Transfer on %di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:52
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:52
 #. Bytes/s
 msgid "stat_dg_label_interface__if_octets"
 msgstr "Bytes/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:53
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:53
 #. %H: Packets on %di
 msgid "stat_dg_title_interface__if_packets"
 msgstr "%H: Packets on %di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:54
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:54
 #. Packets/s
 msgid "stat_dg_label_interface__if_packets"
 msgstr "Packets/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:55
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:55
 #. %H: TCP-Connections to Port %pi
 msgid "stat_dg_title_tcpconns"
 msgstr "%H: TCP-Connections to Port %pi"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:56
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:56
 #. Connections/s
 msgid "stat_dg_label_tcpconns"
 msgstr "Connections/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:57
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:57
 #. %di
 msgid "stat_ds_tcp_connections"
 msgstr "%di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:58
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:58
 #. %H: Disk Space Usage on %di
 msgid "stat_dg_title_df"
 msgstr "%H: Disk Space Usage on %di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:59
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:59
 #. Bytes
 msgid "stat_dg_label_df"
 msgstr "Bytes"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:60
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:60
 #. %ds
 msgid "stat_ds_df__free"
 msgstr "%ds"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:61
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:61
 #. %ds
 msgid "stat_ds_df__used"
 msgstr "%ds"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:62
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:62
 #. %H: Interrupts
 msgid "stat_dg_title_irq"
 msgstr "%H: Interrupts"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:63
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:63
 #. Issues/s
 msgid "stat_dg_label_irq"
 msgstr "Issues/s"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:64
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:64
 #. IRQ %di
 msgid "stat_ds_irq"
 msgstr "IRQ %di"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:65
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:65
 #. %H: System Load
 msgid "stat_dg_title_load"
 msgstr "%H: System Load"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:66
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:66
 #. Load
 msgid "stat_dg_label_load"
 msgstr "Load"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:67
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:67
 #. 1 min
 msgid "stat_ds_load__shortterm"
 msgstr "1 min"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:68
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:68
 #. 5 min
 msgid "stat_ds_load__midterm"
 msgstr "5 min"
 
-#: ./i18n/english/luasrc/i18n/rrdtool.en.lua:69
+#: ./i18nsrc/luasrc/i18n/rrdtool.en.lua:69
 #. 15 min
 msgid "stat_ds_load__longterm"
 msgstr "15 min"

@@ -21,9 +21,19 @@ local has_pptp  = fs.access("/usr/sbin/pptp")
 local has_pppoe = fs.glob("/usr/lib/pppd/*/rp-pppoe.so")()
 
 local network = luci.model.uci.cursor_state():get_all("network")
+local uci = luci.model.uci.cursor()
+local wlcursor = luci.model.uci.cursor_state()
+local wireless = wlcursor:get_all("wireless")
+local wifidata = luci.sys.wifi.getiwconfig()
 
 local netstat = sys.net.deviceinfo()
 local ifaces = {}
+
+for k,v in pairs(wireless) do
+	if v["network"] then
+	 wifiinterface = v[".name"]
+	end
+end
 
 for k, v in pairs(network) do
 	if v[".type"] == "interface" and k ~= "loopback" then
@@ -32,23 +42,34 @@ for k, v in pairs(network) do
 end
 
 m = Map("network", translate("network"), translate("m_n_network"))
-s = m:section(NamedSection, "lan", "interface", translate("m_n_local"))
-s.addremove = false
-s:option(Value, "ipaddr", translate("ipaddress"))
-
-nm = s:option(Value, "netmask", translate("netmask"))
-nm:value("255.255.255.0")
-nm:value("255.255.0.0")
-nm:value("255.0.0.0")
-
-gw = s:option(Value, "gateway", translate("gateway") .. translate("cbi_optional"))
-gw.rmempty = true
-dns = s:option(Value, "dns", translate("dnsserver") .. translate("cbi_optional"))
-dns.rmempty = true
-
 
 s = m:section(NamedSection, "wan", "interface", translate("m_n_inet"))
 s.addremove = false
+
+w = s:option(ListValue, "_waniface", "WAN Interface")
+w:value("ath0","WiFi Interface")
+w:value("eth0","Ethernet Port")
+
+function w.cfgvalue(self,section)
+ return uci:get("network","wan","ifname")
+end
+
+function w.write(self,section,value)
+	if value == "ath0" then
+		m.uci:set("wireless",wifiinterface,"network","wan") 
+		m.uci:set("wireless",wifiinterface,"mod","sta")
+		m.uci:set("network","wan","ifname","ath0")	
+		m.uci:set("network","lan","ifname","eth0")	
+	end
+	if value == "eth0" then
+		m.uci:set("wireless",wifiinterface,"network","lan") 
+		m.uci:set("wireless",wifiinterface,"mod","ap")
+		m.uci:set("network","wan","ifname","eth0")	
+		m.uci:set("network","lan","ifname","ath0")
+	end
+	m:chain("wireless")
+end
+
 p = s:option(ListValue, "proto", translate("protocol"))
 p.override_values = true
 p:value("none", "disabled")
@@ -77,6 +98,9 @@ ip:depends("proto", "static")
 
 nm = s:option(Value, "netmask", translate("netmask"))
 nm:depends("proto", "static")
+nm:value("255.255.255.0")
+nm:value("255.255.0.0")
+nm:value("255.0.0.0")
 
 gw = s:option(Value, "gateway", translate("gateway"))
 gw:depends("proto", "static")
@@ -140,5 +164,27 @@ srv:depends("proto", "pptp")
 srv.rmempty = true
 
 
+
+s = m:section(NamedSection, "lan", "interface", translate("m_n_local"))
+s.addremove = false
+
+l = s:option(DummyValue, "_laniface", "LAN Interface")
+if uci:get("network","lan","ifname") == "ath0" then
+l.value = "WiFi Interface"
+elseif uci:get("network","lan","ifname") == "eth0" then
+l.value = "Ethernet Port"
+end
+
+s:option(Value, "ipaddr", translate("ipaddress"))
+
+nm = s:option(Value, "netmask", translate("netmask"))
+nm:value("255.255.255.0")
+nm:value("255.255.0.0")
+nm:value("255.0.0.0")
+
+gw = s:option(Value, "gateway", translate("gateway") .. translate("cbi_optional"))
+gw.rmempty = true
+dns = s:option(Value, "dns", translate("dnsserver") .. translate("cbi_optional"))
+dns.rmempty = true
 
 return m

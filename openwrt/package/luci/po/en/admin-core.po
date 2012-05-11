@@ -1,1676 +1,1696 @@
 #  admin-core.po
-#  generated from ./i18n/english/luasrc/i18n/admin-core.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/admin-core.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:1
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:1
 #. The following changes have been applied
 msgid "uci_applied"
 msgstr "The following changes have been applied"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:2
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:2
 #. The following changes have been reverted
 msgid "uci_reverted"
 msgstr "The following changes have been reverted"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:3
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:3
 #. User Interface
 msgid "a_i_ui"
 msgstr "User Interface"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:4
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:4
 #. <abbr title=\"Lua Configuration Interface\">LuCI</abbr> is a collection of free Lua software including an <abbr title=\"Model-View-Controller\">MVC</abbr>-Webframework and webinterface for embedded devices. <abbr title=\"Lua Configuration Interface\">LuCI</abbr> is licensed under the Apache-License.
 msgid "c_lucidesc"
 msgstr "<abbr title=\"Lua Configuration Interface\">LuCI</abbr> is a collection of free Lua software including an <abbr title=\"Model-View-Controller\">MVC</abbr>-Webframework and webinterface for embedded devices. <abbr title=\"Lua Configuration Interface\">LuCI</abbr> is licensed under the Apache-License."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:5
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:5
 #. Project Homepage
 msgid "c_projecthome"
 msgstr "Project Homepage"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:6
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:6
 #. Lead Development
 msgid "c_leaddev"
 msgstr "Lead Development"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:7
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:7
 #. Contributing Developers
 msgid "c_contributors"
 msgstr "Contributing Developers"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:8
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:8
 #. Thanks To
 msgid "c_thanksto"
 msgstr "Thanks To"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:9
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:9
 #. Hello!
 msgid "a_i_i_hello"
 msgstr "Hello!"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:10
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:10
 #. This is the administration area of <abbr title=\"Lua Configuration Interface\">LuCI</abbr>.
 msgid "a_i_i_admin1"
 msgstr "This is the administration area of <abbr title=\"Lua Configuration Interface\">LuCI</abbr>."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:11
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:11
 #. <abbr title=\"Lua Configuration Interface\">LuCI</abbr> is a free, flexible, and user friendly graphical interface for configuring OpenWrt Kamikaze.
 msgid "a_i_i_admin2"
 msgstr "<abbr title=\"Lua Configuration Interface\">LuCI</abbr> is a free, flexible, and user friendly graphical interface for configuring OpenWrt Kamikaze."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:12
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:12
 #. On the following pages you can adjust all important settings of your router.
 msgid "a_i_i_admin3"
 msgstr "On the following pages you can adjust all important settings of your router."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:13
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:13
 #. Notice: In <abbr title=\"Lua Configuration Interface\">LuCI</abbr> changes have to be confirmed by clicking Changes - Save &amp; Apply before being applied.
 msgid "a_i_i_admin4"
 msgstr "Notice: In <abbr title=\"Lua Configuration Interface\">LuCI</abbr> changes have to be confirmed by clicking Changes - Save &amp; Apply before being applied."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:14
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:14
 #. As we always want to improve this interface we are looking forward to your feedback and suggestions.
 msgid "a_i_i_admin5"
 msgstr "As we always want to improve this interface we are looking forward to your feedback and suggestions."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:15
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:15
 #. And now have fun with your router!
 msgid "a_i_i_admin6"
 msgstr "And now have fun with your router!"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:16
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:16
 #. The <abbr title=\"Lua Configuration Interface\">LuCI</abbr> Team
 msgid "a_i_i_team"
 msgstr "The <abbr title=\"Lua Configuration Interface\">LuCI</abbr> Team"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:17
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:17
 #. Here you can customize the settings and the functionality of <abbr title=\"Lua Configuration Interface\">LuCI</abbr>.
 msgid "a_i_luci1"
 msgstr "Here you can customize the settings and the functionality of <abbr title=\"Lua Configuration Interface\">LuCI</abbr>."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:18
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:18
 #. Post-commit actions
 msgid "a_i_ucicommit"
 msgstr "Post-commit actions"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:19
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:19
 #. These commands will be executed automatically when a given <abbr title=\"Unified Configuration Interface\">UCI</abbr> configuration is committed allowing changes to be applied instantly.
 msgid "a_i_ucicommit1"
 msgstr "These commands will be executed automatically when a given <abbr title=\"Unified Configuration Interface\">UCI</abbr> configuration is committed allowing changes to be applied instantly."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:20
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:20
 #. Files to be kept when flashing a new firmware
 msgid "a_i_keepflash"
 msgstr "Files to be kept when flashing a new firmware"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:21
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:21
 #. When flashing a new firmware with <abbr title=\"Lua Configuration Interface\">LuCI</abbr> these files will be added to the new firmware installation.
 msgid "a_i_keepflash1"
 msgstr "When flashing a new firmware with <abbr title=\"Lua Configuration Interface\">LuCI</abbr> these files will be added to the new firmware installation."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:22
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:22
 #. Here you can find information about the current system status like <abbr title=\"Central Processing Unit\">CPU</abbr> clock frequency, memory usage or network interface data.
 msgid "a_st_i_status1"
 msgstr "Here you can find information about the current system status like <abbr title=\"Central Processing Unit\">CPU</abbr> clock frequency, memory usage or network interface data."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:23
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:23
 #. Also kernel or service logfiles can be viewed here to get an overview over their current state.
 msgid "a_st_i_status2"
 msgstr "Also kernel or service logfiles can be viewed here to get an overview over their current state."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:24
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:24
 #. Wifi-Scan
 msgid "iwscan"
 msgstr "Wifi-Scan"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:25
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:25
 #. Wifi networks detected by this Dragino
 msgid "iwscan1"
 msgstr "Wifi networks detected by this Dragino"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:26
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:26
 #. <abbr title=\"Encrypted\">Encr.</abbr>
 msgid "iwscan_encr"
 msgstr "<abbr title=\"Encrypted\">Encr.</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:27
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:27
 #. Link
 msgid "iwscan_link"
 msgstr "Link"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:28
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:28
 #. Signal
 msgid "iwscan_signal"
 msgstr "Signal"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:29
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:29
 #. Noise
 msgid "iwscan_noise"
 msgstr "Noise"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:30
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:30
 #. Routes
 msgid "routes"
 msgstr "Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:31
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:31
 #. Netmask
 msgid "routes_netmask"
 msgstr "Netmask"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:32
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:32
 #. Gateway
 msgid "routes_gateway"
 msgstr "Gateway"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:33
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:33
 #. Metric
 msgid "routes_metric"
 msgstr "Metric"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:34
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:34
 #. Here you can configure the basic aspects of your device like its hostname or the timezone.
 msgid "a_s_desc"
 msgstr "Here you can configure the basic aspects of your device like its hostname or the timezone."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:35
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:35
 #. Software
 msgid "a_s_packages"
 msgstr "Software"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:36
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:36
 #. Admin Password
 msgid "a_s_changepw"
 msgstr "Admin Password"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:37
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:37
 #. OPKG-Configuration
 msgid "a_s_p_ipkg"
 msgstr "OPKG-Configuration"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:38
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:38
 #. <abbr title=\"Secure Shell\">SSH</abbr>-Keys
 msgid "a_s_sshkeys"
 msgstr "<abbr title=\"Secure Shell\">SSH</abbr>-Keys"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:39
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:39
 #. Mount Points
 msgid "a_s_fstab"
 msgstr "Mount Points"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:40
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:40
 #. Flash Firmware
 msgid "a_s_flash"
 msgstr "Flash Firmware"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:41
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:41
 #. Change settings related to the system itself, its identification, installed hard- and software, authentication or mount points.
 msgid "a_s_i_system1"
 msgstr "Change settings related to the system itself, its identification, installed hard- and software, authentication or mount points."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:42
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:42
 #. These settings define the base of your system.
 msgid "a_s_i_system2"
 msgstr "These settings define the base of your system."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:43
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:43
 #. Pay attention as any misconfiguration here may prevent your device from booting or may lock yourself out of it.
 msgid "a_s_i_system3"
 msgstr "Pay attention as any misconfiguration here may prevent your device from booting or may lock yourself out of it."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:44
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:44
 #. Perform Actions
 msgid "a_s_packages_do"
 msgstr "Perform Actions"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:45
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:45
 #. Install
 msgid "a_s_packages_install"
 msgstr "Install"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:46
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:46
 #. Download and install package
 msgid "a_s_packages_installurl"
 msgstr "Download and install package"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:47
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:47
 #. Edit package lists and installation targets
 msgid "a_s_packages_ipkg"
 msgstr "Edit package lists and installation targets"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:48
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:48
 #. Package name
 msgid "a_s_packages_name"
 msgstr "Package name"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:49
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:49
 #. Remove
 msgid "a_s_packages_remove"
 msgstr "Remove"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:50
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:50
 #. Find package
 msgid "a_s_packages_search"
 msgstr "Find package"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:51
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:51
 #. Package lists updated
 msgid "a_s_packages_update"
 msgstr "Package lists updated"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:52
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:52
 #. Update package lists
 msgid "a_s_packages_updatelist"
 msgstr "Update package lists"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:53
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:53
 #. Upgrade installed packages
 msgid "a_s_packages_upgrade"
 msgstr "Upgrade installed packages"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:54
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:54
 #. Package lists
 msgid "a_s_p_ipkg_pkglists"
 msgstr "Package lists"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:55
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:55
 #. Installation targets
 msgid "a_s_p_ipkg_targets"
 msgstr "Installation targets"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:56
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:56
 #. Change the password of the system administrator (User <code>root</code>)
 msgid "a_s_changepw1"
 msgstr "Change the password of the system administrator (User <code>root</code>)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:57
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:57
 #. Password successfully changed
 msgid "a_s_changepw_changed"
 msgstr "Password successfully changed"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:58
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:58
 #. Error: Passwords do not match
 msgid "a_s_changepw_nomatch"
 msgstr "Error: Passwords do not match"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:59
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:59
 #. Here you can paste public <abbr title=\"Secure Shell\">SSH</abbr>-Keys (one per line) for <abbr title=\"Secure Shell\">SSH</abbr> public-key authentication.
 msgid "a_s_sshkeys1"
 msgstr "Here you can paste public <abbr title=\"Secure Shell\">SSH</abbr>-Keys (one per line) for <abbr title=\"Secure Shell\">SSH</abbr> public-key authentication."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:60
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:60
 #. Mount Points
 msgid "a_s_fstab_mountpoints"
 msgstr "Mount Points"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:61
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:61
 #. Mount Points define at which point a memory device will be attached to the filesystem
 msgid "a_s_fstab_mountpoints1"
 msgstr "Mount Points define at which point a memory device will be attached to the filesystem"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:62
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:62
 #. Mounted file systems
 msgid "a_s_fstab_active"
 msgstr "Mounted file systems"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:63
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:63
 #. Used
 msgid "a_s_fstab_used"
 msgstr "Used"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:64
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:64
 #. Available
 msgid "a_s_fstab_avail"
 msgstr "Available"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:65
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:65
 #. Mount Point
 msgid "a_s_fstab_mountpoint"
 msgstr "Mount Point"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:66
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:66
 #. The device file of the memory or partition (<abbr title=\"for example\">e.g.</abbr> <code>/dev/sda1</code>)
 msgid "a_s_fstab_device1"
 msgstr "The device file of the memory or partition (<abbr title=\"for example\">e.g.</abbr> <code>/dev/sda1</code>)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:67
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:67
 #. The filesystem that was used to format the memory (<abbr title=\"for example\">e.g.</abbr> <samp><abbr title=\"Third Extended Filesystem\">ext3</abbr></samp>)
 msgid "a_s_fstab_fs1"
 msgstr "The filesystem that was used to format the memory (<abbr title=\"for example\">e.g.</abbr> <samp><abbr title=\"Third Extended Filesystem\">ext3</abbr></samp>)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:68
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:68
 #. If your physical memory is insufficient unused data can be temporarily swapped to a swap-device resulting in a higher amount of usable <abbr title=\"Random Access Memory\">RAM</abbr>. Be aware that swapping data is a very slow process as the swap-device cannot be accessed with the high datarates of the <abbr title=\"Random Access Memory\">RAM</abbr>.
 msgid "a_s_fstab_swap1"
 msgstr "If your physical memory is insufficient unused data can be temporarily swapped to a swap-device resulting in a higher amount of usable <abbr title=\"Random Access Memory\">RAM</abbr>. Be aware that swapping data is a very slow process as the swap-device cannot be accessed with the high datarates of the <abbr title=\"Random Access Memory\">RAM</abbr>."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:69
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:69
 #. Firmware successfully flashed. Rebooting device...
 msgid "a_s_flash_flashed"
 msgstr "Firmware successfully flashed. Rebooting device..."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:70
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:70
 #. Failed to flash
 msgid "a_s_flash_flasherr"
 msgstr "Failed to flash"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:71
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:71
 #. Firmware image
 msgid "a_s_flash_fwimage"
 msgstr "Firmware image"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:72
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:72
 #. Image received. About to start flashing process. DO NOT POWER OFF THE DEVICE!
 msgid "a_s_flash_received"
 msgstr "Image received. About to start flashing process. DO NOT POWER OFF THE DEVICE!"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:73
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:73
 #. Writing firmware...
 msgid "a_s_flash_inprogress"
 msgstr "Writing firmware..."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:74
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:74
 #. Flash Firmware
 msgid "a_s_flash_fwupgrade"
 msgstr "Flash Firmware"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:75
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:75
 #. Keep configuration files
 msgid "a_s_flash_keepcfg"
 msgstr "Keep configuration files"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:76
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:76
 #. Sorry, this function is not (yet) available for your platform.
 msgid "a_s_flash_notimplemented"
 msgstr "Sorry, this function is not (yet) available for your platform."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:77
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:77
 #. Replaces the installed firmware with a new one. The firmware format is platform-dependent.
 msgid "a_s_flash_upgrade1"
 msgstr "Replaces the installed firmware with a new one. The firmware format is platform-dependent."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:78
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:78
 #. Reboots the operating system of your device
 msgid "a_s_reboot1"
 msgstr "Reboots the operating system of your device"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:79
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:79
 #. Perform reboot
 msgid "a_s_reboot_do"
 msgstr "Perform reboot"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:80
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:80
 #. Please wait: Device rebooting...
 msgid "a_s_reboot_running"
 msgstr "Please wait: Device rebooting..."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:81
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:81
 #. Warning: There are unsaved changes that will be lost while rebooting!
 msgid "a_s_reboot_u"
 msgstr "Warning: There are unsaved changes that will be lost while rebooting!"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:82
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:82
 #. Changes applied.
 msgid "a_s_applyreboot1"
 msgstr "Changes applied."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:83
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:83
 #. Backup / Restore
 msgid "a_s_backup"
 msgstr "Backup / Restore"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:84
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:84
 #. Create backup
 msgid "a_s_backup_backup"
 msgstr "Create backup"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:85
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:85
 #. Backup Archive
 msgid "a_s_backup_archive"
 msgstr "Backup Archive"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:86
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:86
 #. Reset router to defaults
 msgid "a_s_backup_reset"
 msgstr "Reset router to defaults"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:87
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:87
 #. Proceed reverting all settings and resetting to firmware defaults?
 msgid "a_s_backup_reset1"
 msgstr "Proceed reverting all settings and resetting to firmware defaults?"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:88
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:88
 #. Restore backup
 msgid "a_s_backup_restore"
 msgstr "Restore backup"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:89
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:89
 #. Here you can backup and restore your router configuration and - if possible - reset the router to the default settings.
 msgid "a_s_backup1"
 msgstr "Here you can backup and restore your router configuration and - if possible - reset the router to the default settings."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:90
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:90
 #. <abbr title=\"Hypertext Transfer Protocol\">HTTP</abbr>-Server
 msgid "a_srv_http"
 msgstr "<abbr title=\"Hypertext Transfer Protocol\">HTTP</abbr>-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:91
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:91
 #. <abbr title=\"Secure Shell\">SSH</abbr>-Server
 msgid "a_srv_ssh"
 msgstr "<abbr title=\"Secure Shell\">SSH</abbr>-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:92
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:92
 #. Services and daemons perform certain tasks on your device.
 msgid "a_srv_services1"
 msgstr "Services and daemons perform certain tasks on your device."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:93
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:93
 #. Most of them are network servers, that offer a certain service for your device or network like shell access, serving webpages like <abbr title=\"Lua Configuration Interface\">LuCI</abbr>, doing mesh routing, sending e-mails, ...
 msgid "a_srv_services2"
 msgstr "Most of them are network servers, that offer a certain service for your device or network like shell access, serving webpages like <abbr title=\"Lua Configuration Interface\">LuCI</abbr>, doing mesh routing, sending e-mails, ..."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:94
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:94
 #. A small webserver which can be used to serve <abbr title=\"Lua Configuration Interface\">LuCI</abbr>.
 msgid "a_srv_http1"
 msgstr "A small webserver which can be used to serve <abbr title=\"Lua Configuration Interface\">LuCI</abbr>."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:95
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:95
 #. Authentication Realm
 msgid "a_srv_http_authrealm"
 msgstr "Authentication Realm"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:96
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:96
 #. The realm which will be displayed at the authentication prompt for protected pages.
 msgid "a_srv_http_authrealm1"
 msgstr "The realm which will be displayed at the authentication prompt for protected pages."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:97
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:97
 #. defaults to <code>/etc/httpd.conf</code>
 msgid "a_srv_http_config1"
 msgstr "defaults to <code>/etc/httpd.conf</code>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:98
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:98
 #. Document root
 msgid "a_srv_http_root"
 msgstr "Document root"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:99
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:99
 #. Dropbear offers <abbr title=\"Secure Shell\">SSH</abbr> network shell access and an integrated <abbr title=\"Secure Copy\">SCP</abbr> server
 msgid "a_srv_dropbear1"
 msgstr "Dropbear offers <abbr title=\"Secure Shell\">SSH</abbr> network shell access and an integrated <abbr title=\"Secure Copy\">SCP</abbr> server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:100
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:100
 #. Password authentication
 msgid "a_srv_d_pwauth"
 msgstr "Password authentication"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:101
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:101
 #. Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication
 msgid "a_srv_d_pwauth1"
 msgstr "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:102
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:102
 #. Channel
 msgid "a_w_channel"
 msgstr "Channel"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:103
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:103
 #. On this pages you can find configuration options for <abbr title=\"Wireless Local Area Network\">WLAN</abbr> based wireless networks.
 msgid "a_w_wifi1"
 msgstr "On this pages you can find configuration options for <abbr title=\"Wireless Local Area Network\">WLAN</abbr> based wireless networks."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:104
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:104
 #. You can easily integrate your 802.11a/b/g/n-devices into your physical network and use the virtual adapter support to build wireless repeaters or offer several networks with one device.
 msgid "a_w_wifi2"
 msgstr "You can easily integrate your 802.11a/b/g/n-devices into your physical network and use the virtual adapter support to build wireless repeaters or offer several networks with one device."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:105
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:105
 #. There is support for Managed, Client, Ad-Hoc and <abbr title=\"Wireless Distribution System\">WDS</abbr> operating modes as well as <abbr title=\"Wi-Fi Protected Access\">WPA</abbr> and <abbr title=\"Wi-Fi Protected Access 2\">WPA2</abbr> encryption for secure communnication.
 msgid "a_w_wifi3"
 msgstr "There is support for Managed, Client, Ad-Hoc and <abbr title=\"Wireless Distribution System\">WDS</abbr> operating modes as well as <abbr title=\"Wi-Fi Protected Access\">WPA</abbr> and <abbr title=\"Wi-Fi Protected Access 2\">WPA2</abbr> encryption for secure communnication."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:106
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:106
 #. Here you can configure installed wifi devices.
 msgid "a_w_devices1"
 msgstr "Here you can configure installed wifi devices."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:107
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:107
 #. Transmit Antenna
 msgid "a_w_txantenna"
 msgstr "Transmit Antenna"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:108
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:108
 #. Receive Antenna
 msgid "a_w_rxantenna"
 msgstr "Receive Antenna"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:109
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:109
 #. Distance to furthest station (in meter)
 msgid "a_w_distance1"
 msgstr "Distance to furthest station (in meter)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:110
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:110
 #. Diversity
 msgid "a_w_diversity"
 msgstr "Diversity"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:111
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:111
 #. Country Code
 msgid "a_w_countrycode"
 msgstr "Country Code"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:112
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:112
 #. Connection Limit
 msgid "a_w_connlimit"
 msgstr "Connection Limit"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:113
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:113
 #. You can run several wifi networks with one device. Be aware that there are certain hardware and driverspecific restrictions. Normally you can operate 1 Ad-Hoc or up to 3 Master-Mode and 1 Client-Mode network simultaneously.
 msgid "a_w_networks1"
 msgstr "You can run several wifi networks with one device. Be aware that there are certain hardware and driverspecific restrictions. Normally you can operate 1 Ad-Hoc or up to 3 Master-Mode and 1 Client-Mode network simultaneously."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:114
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:114
 #. Network Name (<abbr title=\"Extended Service Set Identifier\">ESSID</abbr>)
 msgid "a_w_netid"
 msgstr "Network Name (<abbr title=\"Extended Service Set Identifier\">ESSID</abbr>)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:115
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:115
 #. Add the Wifi network to physical network
 msgid "a_w_network1"
 msgstr "Add the Wifi network to physical network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:116
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:116
 #.  - Create new Network - 
 msgid "a_w_netmanual"
 msgstr " - Create new Network - "
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:117
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:117
 #. Transmit Power
 msgid "a_w_txpwr"
 msgstr "Transmit Power"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:118
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:118
 #. Broadcom Frameburst
 msgid "a_w_brcmburst"
 msgstr "Broadcom Frameburst"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:119
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:119
 #. Atheros Frameburst
 msgid "a_w_athburst"
 msgstr "Atheros Frameburst"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:120
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:120
 #. RadiusServer
 msgid "a_w_radiussrv"
 msgstr "RadiusServer"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:121
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:121
 #. Radius-Port
 msgid "a_w_radiusport"
 msgstr "Radius-Port"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:122
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:122
 #. AP-Isolation
 msgid "a_w_apisolation"
 msgstr "AP-Isolation"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:123
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:123
 #. Prevents Client to Client communication
 msgid "a_w_apisolation1"
 msgstr "Prevents Client to Client communication"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:124
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:124
 #. Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>
 msgid "a_w_hideessid"
 msgstr "Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:125
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:125
 #. Access Point
 msgid "a_w_ap"
 msgstr "Access Point"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:126
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:126
 #. Ad-Hoc
 msgid "a_w_adhoc"
 msgstr "Ad-Hoc"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:127
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:127
 #. Pseudo Ad-Hoc (ahdemo)
 msgid "a_w_ahdemo"
 msgstr "Pseudo Ad-Hoc (ahdemo)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:128
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:128
 #. Client
 msgid "a_w_client"
 msgstr "Client"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:129
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:129
 #. WDS
 msgid "a_w_wds"
 msgstr "WDS"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:130
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:130
 #. Monitor
 msgid "a_w_monitor"
 msgstr "Monitor"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:131
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:131
 #. Dnsmasq is a combined <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Server and <abbr title=\"Domain Name System\">DNS</abbr>-Forwarder for <abbr title=\"Network Address Translation\">NAT</abbr> firewalls
 msgid "dhcp_dnsmasq_desc"
 msgstr "Dnsmasq is a combined <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Server and <abbr title=\"Domain Name System\">DNS</abbr>-Forwarder for <abbr title=\"Network Address Translation\">NAT</abbr> firewalls"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:132
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:132
 #. Domain required
 msgid "dhcp_dnsmasq_domainneeded"
 msgstr "Domain required"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:133
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:133
 #. Don&#39;t forward <abbr title=\"Domain Name System\">DNS</abbr>-Requests without <abbr title=\"Domain Name System\">DNS</abbr>-Name
 msgid "dhcp_dnsmasq_domainneeded_desc"
 msgstr "Don&#39;t forward <abbr title=\"Domain Name System\">DNS</abbr>-Requests without <abbr title=\"Domain Name System\">DNS</abbr>-Name"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:134
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:134
 #. Authoritative
 msgid "dhcp_dnsmasq_authoritative"
 msgstr "Authoritative"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:135
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:135
 #. This is the only <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> in the local network
 msgid "dhcp_dnsmasq_authoritative_desc"
 msgstr "This is the only <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> in the local network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:136
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:136
 #. Filter private
 msgid "dhcp_dnsmasq_boguspriv"
 msgstr "Filter private"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:137
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:137
 #. Don&#39;t forward reverse lookups for local networks
 msgid "dhcp_dnsmasq_boguspriv_desc"
 msgstr "Don&#39;t forward reverse lookups for local networks"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:138
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:138
 #. Filter useless
 msgid "dhcp_dnsmasq_filterwin2k"
 msgstr "Filter useless"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:139
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:139
 #. filter useless <abbr title=\"Domain Name System\">DNS</abbr>-queries of Windows-systems
 msgid "dhcp_dnsmasq_filterwin2k_desc"
 msgstr "filter useless <abbr title=\"Domain Name System\">DNS</abbr>-queries of Windows-systems"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:140
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:140
 #. Localise queries
 msgid "dhcp_dnsmasq_localisequeries"
 msgstr "Localise queries"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:141
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:141
 #. localises the hostname depending on its subnet
 msgid "dhcp_dnsmasq_localisequeries_desc"
 msgstr "localises the hostname depending on its subnet"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:142
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:142
 #. Local Server
 msgid "dhcp_dnsmasq_local"
 msgstr "Local Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:143
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:143
 #. Local Domain
 msgid "dhcp_dnsmasq_domain"
 msgstr "Local Domain"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:144
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:144
 #. Expand Hosts
 msgid "dhcp_dnsmasq_expandhosts"
 msgstr "Expand Hosts"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:145
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:145
 #. adds domain names to hostentries in the resolv file
 msgid "dhcp_dnsmasq_expandhosts_desc"
 msgstr "adds domain names to hostentries in the resolv file"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:146
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:146
 #. don&#39;t cache unknown
 msgid "dhcp_dnsmasq_nonegcache"
 msgstr "don&#39;t cache unknown"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:147
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:147
 #. prevents caching of negative <abbr title=\"Domain Name System\">DNS</abbr>-replies
 msgid "dhcp_dnsmasq_nonegcache_desc"
 msgstr "prevents caching of negative <abbr title=\"Domain Name System\">DNS</abbr>-replies"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:148
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:148
 #. Use <code>/etc/ethers</code>
 msgid "dhcp_dnsmasq_readethers"
 msgstr "Use <code>/etc/ethers</code>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:149
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:149
 #. Read <code>/etc/ethers</code> to configure the <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Server
 msgid "dhcp_dnsmasq_readethers_desc"
 msgstr "Read <code>/etc/ethers</code> to configure the <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:150
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:150
 #. Leasefile
 msgid "dhcp_dnsmasq_leasefile"
 msgstr "Leasefile"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:151
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:151
 #. file where given <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-leases will be stored
 msgid "dhcp_dnsmasq_leasefile_desc"
 msgstr "file where given <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-leases will be stored"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:152
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:152
 #. Resolvfile
 msgid "dhcp_dnsmasq_resolvfile"
 msgstr "Resolvfile"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:153
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:153
 #. local <abbr title=\"Domain Name System\">DNS</abbr> file
 msgid "dhcp_dnsmasq_resolvfile_desc"
 msgstr "local <abbr title=\"Domain Name System\">DNS</abbr> file"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:154
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:154
 #. Ignore <code>/etc/hosts</code>
 msgid "dhcp_dnsmasq_nohosts"
 msgstr "Ignore <code>/etc/hosts</code>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:155
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:155
 #. Strict order
 msgid "dhcp_dnsmasq_strictorder"
 msgstr "Strict order"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:156
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:156
 #. <abbr title=\"Domain Name System\">DNS</abbr>-Server will be queried in the order of the resolvfile
 msgid "dhcp_dnsmasq_strictorder_desc"
 msgstr "<abbr title=\"Domain Name System\">DNS</abbr>-Server will be queried in the order of the resolvfile"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:157
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:157
 #. Log queries
 msgid "dhcp_dnsmasq_logqueries"
 msgstr "Log queries"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:158
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:158
 #. Ignore resolve file
 msgid "dhcp_dnsmasq_noresolv"
 msgstr "Ignore resolve file"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:159
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:159
 #. concurrent queries
 msgid "dhcp_dnsmasq_dnsforwardmax"
 msgstr "concurrent queries"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:160
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:160
 #. <abbr title=\"Domain Name System\">DNS</abbr>-Port
 msgid "dhcp_dnsmasq_port"
 msgstr "<abbr title=\"Domain Name System\">DNS</abbr>-Port"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:161
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:161
 #. <abbr title=\"maximal\">max.</abbr> <abbr title=\"Extension Mechanisms for Domain Name System\">EDNS0</abbr> paket size
 msgid "dhcp_dnsmasq_ednspacket_max"
 msgstr "<abbr title=\"maximal\">max.</abbr> <abbr title=\"Extension Mechanisms for Domain Name System\">EDNS0</abbr> paket size"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:162
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:162
 #. <abbr title=\"maximal\">max.</abbr> <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Leases
 msgid "dhcp_dnsmasq_dhcpleasemax"
 msgstr "<abbr title=\"maximal\">max.</abbr> <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>-Leases"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:163
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:163
 #. additional hostfile
 msgid "dhcp_dnsmasq_addnhosts"
 msgstr "additional hostfile"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:164
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:164
 #. query port
 msgid "dhcp_dnsmasq_queryport"
 msgstr "query port"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:165
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:165
 #. Enable TFTP-Server
 msgid "dhcp_dnsmasq_enabletftp"
 msgstr "Enable TFTP-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:166
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:166
 #. TFTP-Server Root
 msgid "dhcp_dnsmasq_tftproot"
 msgstr "TFTP-Server Root"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:167
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:167
 #. Network Boot Image
 msgid "dhcp_dnsmasq_dhcpboot"
 msgstr "Network Boot Image"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:168
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:168
 #. Switch
 msgid "a_n_switch"
 msgstr "Switch"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:169
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:169
 #. Active Connections
 msgid "a_n_conntrack"
 msgstr "Active Connections"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:170
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:170
 #. This page gives an overview over currently active network connections.
 msgid "a_n_conntrack_desc"
 msgstr "This page gives an overview over currently active network connections."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:171
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:171
 #. Routes
 msgid "a_n_routes"
 msgstr "Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:172
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:172
 #. IPv4 Routes
 msgid "a_n_routes4"
 msgstr "IPv4 Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:173
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:173
 #. IPv6 Routes
 msgid "a_n_routes6"
 msgstr "IPv6 Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:174
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:174
 #. In this area you find all network-related settings.
 msgid "a_network1"
 msgstr "In this area you find all network-related settings."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:175
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:175
 #. On most routers the network switch can be freely configured and splitted up into several <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s.
 msgid "a_network2"
 msgstr "On most routers the network switch can be freely configured and splitted up into several <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:176
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:176
 #. Interfaces and <abbr title=\"Point-to-Point Protocol over Ethernet\">PPPoE</abbr> / <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Settings allow a custom organisation of the network and connections to other networks like the internet.
 msgid "a_network3"
 msgstr "Interfaces and <abbr title=\"Point-to-Point Protocol over Ethernet\">PPPoE</abbr> / <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Settings allow a custom organisation of the network and connections to other networks like the internet."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:177
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:177
 #. With <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> devices in your local network can be automatically configured for network communication.
 msgid "a_network4"
 msgstr "With <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> devices in your local network can be automatically configured for network communication."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:178
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:178
 #. Firewall and portforwarding can be used to secure your network while providing services to external networks.
 msgid "a_network5"
 msgstr "Firewall and portforwarding can be used to secure your network while providing services to external networks."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:179
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:179
 #. The network ports on your router can be combined to several <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s in which computers can communicate directly with each other. <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s are often used to separate different network segments. Often there is by default one Uplink port for a connection to the next greater network like the internet and other ports for a local network.
 msgid "a_n_switch1"
 msgstr "The network ports on your router can be combined to several <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s in which computers can communicate directly with each other. <abbr title=\"Virtual Local Area Network\">VLAN</abbr>s are often used to separate different network segments. Often there is by default one Uplink port for a connection to the next greater network like the internet and other ports for a local network."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:180
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:180
 #. Ports belonging to a <abbr title=\"Virtual Local Area Network\">VLAN</abbr> are separated with spaces. The port with the highest number (usually 5) is oftern the connection to the internal network interface of the router. On devices with 5 ports often the one with the lowest number (0) is the predefined Uplink port.
 msgid "network_switch_desc"
 msgstr "Ports belonging to a <abbr title=\"Virtual Local Area Network\">VLAN</abbr> are separated with spaces. The port with the highest number (usually 5) is oftern the connection to the internal network interface of the router. On devices with 5 ports often the one with the lowest number (0) is the predefined Uplink port."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:181
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:181
 #. On this page you can configure the network interfaces. You can bridge several interfaces by ticking the &quot;bridge interfaces&quot; field and enter the names of several network interfaces separated by spaces. You can also use <abbr title=\"Virtual Local Area Network\">VLAN</abbr> notation <samp>INTERFACE.VLANNR</samp> (<abbr title=\"for example\">e.g.</abbr>: <samp>eth0.1</samp>).
 msgid "a_n_ifaces1"
 msgstr "On this page you can configure the network interfaces. You can bridge several interfaces by ticking the &quot;bridge interfaces&quot; field and enter the names of several network interfaces separated by spaces. You can also use <abbr title=\"Virtual Local Area Network\">VLAN</abbr> notation <samp>INTERFACE.VLANNR</samp> (<abbr title=\"for example\">e.g.</abbr>: <samp>eth0.1</samp>)."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:182
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:182
 #. Bridge interfaces
 msgid "a_n_i_bridge"
 msgstr "Bridge interfaces"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:183
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:183
 #. creates a bridge over specified interface(s)
 msgid "a_n_i_bridge1"
 msgstr "creates a bridge over specified interface(s)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:184
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:184
 #. With <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> network members can automatically receive their network settings (<abbr title=\"Internet Protocol\">IP</abbr>-address, netmask, <abbr title=\"Domain Name System\">DNS</abbr>-server, ...).
 msgid "dhcp_desc"
 msgstr "With <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> network members can automatically receive their network settings (<abbr title=\"Internet Protocol\">IP</abbr>-address, netmask, <abbr title=\"Domain Name System\">DNS</abbr>-server, ...)."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:185
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:185
 #. Leasetime
 msgid "dhcp_dhcp_leasetime"
 msgstr "Leasetime"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:186
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:186
 #. Dynamic <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>
 msgid "dhcp_dhcp_dynamicdhcp"
 msgstr "Dynamic <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:187
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:187
 #. Ignore interface
 msgid "dhcp_dhcp_ignore"
 msgstr "Ignore interface"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:188
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:188
 #. disable <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> for this interface
 msgid "dhcp_dhcp_ignore_desc"
 msgstr "disable <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr> for this interface"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:189
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:189
 #. Force
 msgid "dhcp_dhcp_force"
 msgstr "Force"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:190
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:190
 #. first address (last octet)
 msgid "dhcp_dhcp_start_desc"
 msgstr "first address (last octet)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:191
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:191
 #. number of leased addresses -1
 msgid "dhcp_dhcp_limit_desc"
 msgstr "number of leased addresses -1"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:192
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:192
 #. DHCP-Options
 msgid "dhcp_dhcp_dhcpoption"
 msgstr "DHCP-Options"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:193
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:193
 #. See &quot;dnsmasq --help dhcp&quot; for a list of available options.
 msgid "dhcp_dhcp_dhcpoption_desc"
 msgstr "See &quot;dnsmasq --help dhcp&quot; for a list of available options."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:194
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:194
 #. Leases
 msgid "dhcp_leases"
 msgstr "Leases"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:195
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:195
 #. Static Leases
 msgid "luci_ethers"
 msgstr "Static Leases"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:196
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:196
 #. Leasetime remaining
 msgid "dhcp_timeremain"
 msgstr "Leasetime remaining"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:197
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:197
 #. Active Leases
 msgid "dhcp_leases_active"
 msgstr "Active Leases"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:198
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:198
 #. Point-to-Point Connections
 msgid "a_n_ptp"
 msgstr "Point-to-Point Connections"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:199
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:199
 #. Point-to-Point connections with <abbr title=\"Point-to-Point Protocol over Ethernet\">PPPoE</abbr> or <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr> are often used to connect a device over <abbr title=\"Digital Subscriber Line\">DSL</abbr> or similar technologies to an internet access point.
 msgid "a_n_ptp1"
 msgstr "Point-to-Point connections with <abbr title=\"Point-to-Point Protocol over Ethernet\">PPPoE</abbr> or <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr> are often used to connect a device over <abbr title=\"Digital Subscriber Line\">DSL</abbr> or similar technologies to an internet access point."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:200
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:200
 #. You need to install &quot;comgt&quot; for UMTS/GPRS, &quot;ppp-mod-pppoe&quot; for PPPoE, &quot;ppp-mod-pppoa&quot; for PPPoA or &quot;pptp&quot; for PPtP support
 msgid "network_interface_prereq"
 msgstr "You need to install &quot;comgt&quot; for UMTS/GPRS, &quot;ppp-mod-pppoe&quot; for PPPoE, &quot;ppp-mod-pppoa&quot; for PPPoA or &quot;pptp&quot; for PPtP support"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:201
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:201
 #. You need to install &quot;ppp-mod-pppoe&quot; for PPPoE or &quot;pptp&quot; for PPtP support
 msgid "network_interface_prereq_mini"
 msgstr "You need to install &quot;ppp-mod-pppoe&quot; for PPPoE or &quot;pptp&quot; for PPtP support"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:202
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:202
 #. <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Server
 msgid "network_interface_server"
 msgstr "<abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:203
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:203
 #. Automatic Disconnect
 msgid "network_interface_demand"
 msgstr "Automatic Disconnect"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:204
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:204
 #. Time (in seconds) after which an unused connection will be closed
 msgid "network_interface_demand_desc"
 msgstr "Time (in seconds) after which an unused connection will be closed"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:205
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:205
 #. Keep-Alive
 msgid "network_interface_keepalive"
 msgstr "Keep-Alive"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:206
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:206
 #. Number of failed connection tests to initiate automatic reconnect
 msgid "network_interface_keepalive_desc"
 msgstr "Number of failed connection tests to initiate automatic reconnect"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:207
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:207
 #. Modem device
 msgid "network_interface_device"
 msgstr "Modem device"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:208
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:208
 #. The device node of your modem, e.g. /dev/ttyUSB0
 msgid "network_interface_device_desc"
 msgstr "The device node of your modem, e.g. /dev/ttyUSB0"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:209
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:209
 #. Replace default route
 msgid "network_interface_defaultroute"
 msgstr "Replace default route"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:210
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:210
 #. Let pppd replace the current default route to use the PPP interface after successful connect
 msgid "network_interface_defaultroute_desc"
 msgstr "Let pppd replace the current default route to use the PPP interface after successful connect"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:211
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:211
 #. Use peer DNS
 msgid "network_interface_peerdns"
 msgstr "Use peer DNS"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:212
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:212
 #. Configure the local DNS server to use the name servers adverticed by the PPP peer
 msgid "network_interface_peerdns_desc"
 msgstr "Configure the local DNS server to use the name servers adverticed by the PPP peer"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:213
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:213
 #. Enable IPv6 on PPP link
 msgid "network_interface_ipv6"
 msgstr "Enable IPv6 on PPP link"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:214
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:214
 #. Connect script
 msgid "network_interface_connect"
 msgstr "Connect script"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:215
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:215
 #. Let pppd run this script after establishing the PPP link
 msgid "network_interface_connect_desc"
 msgstr "Let pppd run this script after establishing the PPP link"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:216
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:216
 #. Disconnect script
 msgid "network_interface_disconnect"
 msgstr "Disconnect script"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:217
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:217
 #. Let pppd run this script before tearing down the PPP link
 msgid "network_interface_disconnect_desc"
 msgstr "Let pppd run this script before tearing down the PPP link"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:218
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:218
 #. Additional pppd options
 msgid "network_interface_pppd_options"
 msgstr "Additional pppd options"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:219
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:219
 #. Specify additional command line arguments for pppd here
 msgid "network_interface_pppd_options_desc"
 msgstr "Specify additional command line arguments for pppd here"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:220
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:220
 #. Access point (APN)
 msgid "network_interface_apn"
 msgstr "Access point (APN)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:221
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:221
 #. PIN code
 msgid "network_interface_pincode"
 msgstr "PIN code"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:222
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:222
 #. Make sure that you provide the correct pin code here or you might lock your sim card!
 msgid "network_interface_pincode_desc"
 msgstr "Make sure that you provide the correct pin code here or you might lock your sim card!"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:223
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:223
 #. Service type
 msgid "network_interface_service"
 msgstr "Service type"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:224
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:224
 #. Setup wait time
 msgid "network_interface_maxwait"
 msgstr "Setup wait time"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:225
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:225
 #. Seconds to wait for the modem to become ready before attempting to connect
 msgid "network_interface_maxwait_desc"
 msgstr "Seconds to wait for the modem to become ready before attempting to connect"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:226
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:226
 #. PPPoA Encapsulation
 msgid "network_interface_encaps"
 msgstr "PPPoA Encapsulation"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:228
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:228
 #. Routes specify over which interface and gateway a certain host or network can be reached.
 msgid "a_n_r_routes1"
 msgstr "Routes specify over which interface and gateway a certain host or network can be reached."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:229
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:229
 #. Static Routes
 msgid "a_n_routes_static"
 msgstr "Static Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:230
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:230
 #. Static IPv4 Routes
 msgid "a_n_routes_static4"
 msgstr "Static IPv4 Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:231
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:231
 #. Static IPv6 Routes
 msgid "a_n_routes_static6"
 msgstr "Static IPv6 Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:232
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:232
 #. Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Routes
 msgid "a_n_routes_kernel4"
 msgstr "Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:233
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:233
 #. Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Routes
 msgid "a_n_routes_kernel6"
 msgstr "Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Routes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:234
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:234
 #. Host-<abbr title=\"Internet Protocol Address\">IP</abbr> or Network
 msgid "a_n_r_target1"
 msgstr "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> or Network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:235
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:235
 #. <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Address or Network (CIDR)
 msgid "a_n_r_target6"
 msgstr "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Address or Network (CIDR)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:236
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:236
 #. if target is a network
 msgid "a_n_r_netmask1"
 msgstr "if target is a network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:237
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:237
 #. Internet Connection
 msgid "m_n_inet"
 msgstr "Internet Connection"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:238
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:238
 #. Local Network
 msgid "m_n_local"
 msgstr "Local Network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:239
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:239
 #. Route
 msgid "m_n_route"
 msgstr "Route"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:240
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:240
 #. Bridge
 msgid "m_n_brdige"
 msgstr "Bridge"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:241
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:241
 #. Provide (Access Point)
 msgid "m_w_ap"
 msgstr "Provide (Access Point)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:242
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:242
 #. Independent (Ad-Hoc)
 msgid "m_w_adhoc"
 msgstr "Independent (Ad-Hoc)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:243
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:243
 #. Join (Client)
 msgid "m_w_client"
 msgstr "Join (Client)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:244
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:244
 #. Distributed (<abbr title=\"Wireless Distribution System\">WDS</abbr>)
 msgid "m_w_wds"
 msgstr "Distributed (<abbr title=\"Wireless Distribution System\">WDS</abbr>)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:245
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:245
 #. Clientmode
 msgid "m_w_clientmode"
 msgstr "Clientmode"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:246
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:246
 #. System log buffer size
 msgid "system_system_logsize"
 msgstr "System log buffer size"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:247
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:247
 #. External system log server
 msgid "system_system_logip"
 msgstr "External system log server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:248
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:248
 #. Log output level
 msgid "system_system_conloglevel"
 msgstr "Log output level"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:249
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:249
 #. Level of log messages on the console
 msgid "system_system_conloglevel_desc"
 msgstr "Level of log messages on the console"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:250
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:250
 #. Chipset
 msgid "m_i_chipset"
 msgstr "Chipset"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:251
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:251
 #. Processor
 msgid "m_i_processor"
 msgstr "Processor"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:252
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:252
 #. Memory
 msgid "m_i_memory"
 msgstr "Memory"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:253
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:253
 #. System Time
 msgid "m_i_systemtime"
 msgstr "System Time"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:254
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:254
 #. Uptime
 msgid "m_i_uptime"
 msgstr "Uptime"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:255
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:255
 #. First leased address
 msgid "m_n_d_firstaddress"
 msgstr "First leased address"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:256
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:256
 #. Number of leased addresses
 msgid "m_n_d_numleases"
 msgstr "Number of leased addresses"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:257
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:257
 #. Routing table
 msgid "routingtable"
 msgstr "Routing table"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:258
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:258
 #. Wifi scan
 msgid "wlanscan"
 msgstr "Wifi scan"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:259
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:259
 #. Frequency
 msgid "frequency"
 msgstr "Frequency"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:260
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:260
 #. Power
 msgid "power"
 msgstr "Power"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:261
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:261
 #. Noise
 msgid "noise"
 msgstr "Noise"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:262
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:262
 #. Signal
 msgid "signal"
 msgstr "Signal"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:263
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:263
 #. Link
 msgid "link"
 msgstr "Link"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:264
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:264
 #. <abbr title=\"Fragmentation\">Frag.</abbr>
 msgid "frag"
 msgstr "<abbr title=\"Fragmentation\">Frag.</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:265
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:265
 #. <abbr title=\"Request To Send\">RTS</abbr>
 msgid "rts"
 msgstr "<abbr title=\"Request To Send\">RTS</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:266
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:266
 #. Bitrate
 msgid "bitrate"
 msgstr "Bitrate"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:267
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:267
 #. automatically reconnect
 msgid "m_n_keepalive"
 msgstr "automatically reconnect"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:268
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:268
 #. disconnect when idle for
 msgid "m_n_dialondemand"
 msgstr "disconnect when idle for"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:269
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:269
 #. <abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Server
 msgid "m_n_pptp_server"
 msgstr "<abbr title=\"Point-to-Point Tunneling Protocol\">PPTP</abbr>-Server"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:270
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:270
 #. <abbr title=\"Light Emitting Diode\">LED</abbr> Configuration
 msgid "leds"
 msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> Configuration"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:271
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:271
 #. Customizes the behaviour of the device <abbr title=\"Light Emitting Diode\">LED</abbr>s if possible.
 msgid "leds_desc"
 msgstr "Customizes the behaviour of the device <abbr title=\"Light Emitting Diode\">LED</abbr>s if possible."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:272
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:272
 #. <abbr title=\"Light Emitting Diode\">LED</abbr> Name
 msgid "system_led_name"
 msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> Name"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:273
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:273
 #. <abbr title=\"Light Emitting Diode\">LED</abbr> Device
 msgid "system_led_sysfs"
 msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> Device"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:274
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:274
 #. Default state
 msgid "system_led_default"
 msgstr "Default state"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:275
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:275
 #. ticked = on
 msgid "system_led_default_desc"
 msgstr "ticked = on"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:276
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:276
 #. Trigger
 msgid "system_led_trigger"
 msgstr "Trigger"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:277
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:277
 #. None
 msgid "system_led_trigger_none"
 msgstr "None"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:278
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:278
 #. Default On
 msgid "system_led_trigger_defaulton"
 msgstr "Default On"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:279
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:279
 #. Timer
 msgid "system_led_trigger_timer"
 msgstr "Timer"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:280
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:280
 #. Heartbeat (Load Average)
 msgid "system_led_trigger_heartbeat"
 msgstr "Heartbeat (Load Average)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:281
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:281
 #. Network Device
 msgid "system_led_trigger_netdev"
 msgstr "Network Device"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:282
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:282
 #. Off-State Delay
 msgid "system_led_delayoff"
 msgstr "Off-State Delay"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:283
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:283
 #. Time (in ms) the <abbr title=\"Light Emitting Diode\">LED</abbr> is off
 msgid "system_led_delayoff_desc"
 msgstr "Time (in ms) the <abbr title=\"Light Emitting Diode\">LED</abbr> is off"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:284
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:284
 #. On-State Delay
 msgid "system_led_delayon"
 msgstr "On-State Delay"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:285
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:285
 #. Time (in ms) the <abbr title=\"Light Emitting Diode\">LED</abbr> is on
 msgid "system_led_delayon_desc"
 msgstr "Time (in ms) the <abbr title=\"Light Emitting Diode\">LED</abbr> is on"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:286
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:286
 #. Device
 msgid "system_led_dev"
 msgstr "Device"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:287
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:287
 #. Trigger Mode
 msgid "system_led_mode"
 msgstr "Trigger Mode"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:288
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:288
 #. Link On
 msgid "system_led_mode_link"
 msgstr "Link On"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:289
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:289
 #. Transmit
 msgid "system_led_mode_tx"
 msgstr "Transmit"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:290
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:290
 #. Receive
 msgid "system_led_mode_rx"
 msgstr "Receive"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:291
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:291
 #. Active
 msgid "network_interface_up"
 msgstr "Active"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:292
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:292
 #. <abbr title=\"Media Access Control\">MAC</abbr>-Address
 msgid "network_interface_hwaddr"
 msgstr "<abbr title=\"Media Access Control\">MAC</abbr>-Address"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:293
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:293
 #. Hardware Address
 msgid "network_interface_hwaddr_desc"
 msgstr "Hardware Address"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:294
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:294
 #. Traffic
 msgid "network_interface_txrx"
 msgstr "Traffic"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:295
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:295
 #. transmitted / received
 msgid "network_interface_txrx_desc"
 msgstr "transmitted / received"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:296
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:296
 #. Errors
 msgid "network_interface_err"
 msgstr "Errors"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:297
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:297
 #. TX / RX
 msgid "network_interface_err_desc"
 msgstr "TX / RX"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:298
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:298
 #. Create / Assign firewall-zone
 msgid "network_interface_fwzone"
 msgstr "Create / Assign firewall-zone"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:299
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:299
 #. This interface does not belong to any firewall zone yet.
 msgid "network_interface_fwzone_desc"
 msgstr "This interface does not belong to any firewall zone yet."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:300
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:300
 #. Processes
 msgid "process_head"
 msgstr "Processes"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:301
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:301
 #. This list gives an overview over currently running system processes and their status.
 msgid "process_descr"
 msgstr "This list gives an overview over currently running system processes and their status."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:302
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:302
 #. PID
 msgid "process_pid"
 msgstr "PID"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:303
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:303
 #. Owner
 msgid "process_owner"
 msgstr "Owner"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:304
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:304
 #. Command
 msgid "process_command"
 msgstr "Command"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:305
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:305
 #. CPU usage (%)
 msgid "process_cpu"
 msgstr "CPU usage (%)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:306
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:306
 #. Memory usage (%)
 msgid "process_mem"
 msgstr "Memory usage (%)"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:307
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:307
 #. Hang Up
 msgid "process_hup"
 msgstr "Hang Up"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:308
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:308
 #. Terminate
 msgid "process_term"
 msgstr "Terminate"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:309
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:309
 #. Kill
 msgid "process_kill"
 msgstr "Kill"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:310
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:310
 #. cached
 msgid "mem_cached"
 msgstr "cached"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:311
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:311
 #. buffered
 msgid "mem_buffered"
 msgstr "buffered"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:312
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:312
 #. free
 msgid "mem_free"
 msgstr "free"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:313
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:313
 #. Scheduled Tasks
 msgid "a_s_crontab"
 msgstr "Scheduled Tasks"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:314
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:314
 #. This is the system crontab in which scheduled tasks can be defined.
 msgid "a_s_crontab1"
 msgstr "This is the system crontab in which scheduled tasks can be defined."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:315
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:315
 #. NAS ID
 msgid "a_w_nasid"
 msgstr "NAS ID"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:316
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:316
 #. Path to CA-Certificate
 msgid "a_w_cacert"
 msgstr "Path to CA-Certificate"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:317
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:317
 #. EAP-Method
 msgid "a_w_eaptype"
 msgstr "EAP-Method"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:318
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:318
 #. Path to Private Key
 msgid "a_w_tlsprivkey"
 msgstr "Path to Private Key"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:319
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:319
 #. Password of Private Key
 msgid "a_w_tlsprivkeypwd"
 msgstr "Password of Private Key"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:320
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:320
 #. PEAP-Authentication
 msgid "a_w_peapauth"
 msgstr "PEAP-Authentication"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:321
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:321
 #. PEAP-Identity
 msgid "a_w_peapidentity"
 msgstr "PEAP-Identity"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:322
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:322
 #. PEAP-Password
 msgid "a_w_peappassword"
 msgstr "PEAP-Password"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:323
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:323
 #. Create Network
 msgid "a_w_create"
 msgstr "Create Network"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:324
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:324
 #. Hostnames
 msgid "hostnames"
 msgstr "Hostnames"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:325
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:325
 #. Host entries
 msgid "hostnames_entries"
 msgstr "Host entries"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:326
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:326
 #. Hostname
 msgid "hostnames_hostname"
 msgstr "Hostname"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:327
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:327
 #. IP address
 msgid "hostnames_address"
 msgstr "IP address"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:328
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:328
 #. LuCI Components
 msgid "luci_components"
 msgstr "LuCI Components"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:329
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:329
 #. Clamp Segment Size
 msgid "m_n_mssfix"
 msgstr "Clamp Segment Size"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:330
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:330
 #. Fixes problems with unreachable websites, submitting forms or other unexpected behaviour for some ISPs.
 msgid "m_n_mssfix_desc"
 msgstr "Fixes problems with unreachable websites, submitting forms or other unexpected behaviour for some ISPs."
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:331
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:331
 #. <abbr title=\"defined by plug-in board\">Shield Model</abbr>
 msgid "m_i_shieldmodel"
 msgstr "<abbr title=\"defined by plug-in board\">Shield Model</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:332
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:332
 #. <abbr title=\"defined by plug-in board\">Shield Application Info</abbr>
 msgid "m_i_shieldapp"
 msgstr "<abbr title=\"defined by plug-in board\">Shield Application Info</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:333
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:333
 #. <abbr title=\"defined by plug-in board\">Shield Sketch Version</abbr>
 msgid "m_i_shieldsketch"
 msgstr "<abbr title=\"defined by plug-in board\">Shield Sketch Version</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:334
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:334
 #. <abbr title=\"defined by plug-in board\">Shield Hardware Version</abbr>
 msgid "m_i_shieldhardware"
 msgstr "<abbr title=\"defined by plug-in board\">Shield Hardware Version</abbr>"
 
-#: ./i18n/english/luasrc/i18n/admin-core.en.lua:335
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:335
 #. Dragino Firmware Version
 msgid "m_i_firmwareversion"
 msgstr "Dragino Firmware Version"
+
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:336
+#. WAN Interface
+msgid "d_s_s_wan_iface"
+msgstr "WAN Interface"
+
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:337
+#. LAN Interface
+msgid "d_s_s_lan_iface"
+msgstr "LAN Interface"
+
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:338
+#. Wifi
+msgid "d_s_s_wifi_iface"
+msgstr "Wifi"
+
+#: ./i18nsrc/luasrc/i18n/admin-core.en.lua:339
+#. Ethernet
+msgid "d_s_s_eth_iface"
+msgstr "Ethernet"
 

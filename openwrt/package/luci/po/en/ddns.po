@@ -1,45 +1,45 @@
 #  ddns.po
-#  generated from ./i18n/english/luasrc/i18n/ddns.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/ddns.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:1
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:1
 #. Dynamic DNS
 msgid "ddns"
 msgstr "Dynamic DNS"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:2
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:2
 #. Dynamic DNS allows that your router can be reached with a fixed hostname while having a dynamically changing IP-Address.
 msgid "ddns_desc"
 msgstr "Dynamic DNS allows that your router can be reached with a fixed hostname while having a dynamically changing IP-Address."
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:3
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:3
 #. Source of IP-Address
 msgid "ddns_service_ipsource"
 msgstr "Source of IP-Address"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:4
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:4
 #. Check for changed IP every
 msgid "ddns_service_checkinterval"
 msgstr "Check for changed IP every"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:5
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:5
 #. Check-Time unit
 msgid "ddns_service_checkunit"
 msgstr "Check-Time unit"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:6
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:6
 #. Force update every
 msgid "ddns_service_forceinterval"
 msgstr "Force update every"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:7
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:7
 #. Force-Time unit
 msgid "ddns_service_forceunit"
 msgstr "Force-Time unit"
 
-#: ./i18n/english/luasrc/i18n/ddns.en.lua:8
+#: ./i18nsrc/luasrc/i18n/ddns.en.lua:8
 #. Custom Update-URL
 msgid "ddns_service_updateurl"
 msgstr "Custom Update-URL"

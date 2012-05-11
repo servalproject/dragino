@@ -1,40 +1,40 @@
 #  livestats.po
-#  generated from ./i18n/english/luasrc/i18n/livestats.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/livestats.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:1
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:1
 #. incoming
 msgid "livestats_incoming"
 msgstr "incoming"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:2
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:2
 #. outgoing
 msgid "livestats_outgoing"
 msgstr "outgoing"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:3
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:3
 #. traffic on
 msgid "livestats_traffic"
 msgstr "traffic on"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:4
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:4
 #. signal-to-noise ratio for
 msgid "livestats_wifi"
 msgstr "signal-to-noise ratio for"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:5
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:5
 #. load average
 msgid "livestats_loadavg"
 msgstr "load average"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:6
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:6
 #. Realtime Wireless Status
 msgid "livestats_stat_wireless"
 msgstr "Realtime Wireless Status"
 
-#: ./i18n/english/luasrc/i18n/livestats.en.lua:7
+#: ./i18nsrc/luasrc/i18n/livestats.en.lua:7
 #. Realtime Network Traffic
 msgid "livestats_stat_traffic"
 msgstr "Realtime Network Traffic"

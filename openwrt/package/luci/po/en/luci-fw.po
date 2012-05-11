@@ -1,285 +1,285 @@
 #  luci-fw.po
-#  generated from ./i18n/english/luasrc/i18n/luci-fw.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/luci-fw.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:1
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:1
 #. Port forwarding
 msgid "fw_portfw"
 msgstr "Port forwarding"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:2
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:2
 #. Traffic Redirection
 msgid "fw_redirect"
 msgstr "Traffic Redirection"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:3
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:3
 #. Traffic redirection allows you to change the destination address of forwarded packets.
 msgid "fw_redirect_desc"
 msgstr "Traffic redirection allows you to change the destination address of forwarded packets."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:4
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:4
 #. Zone-to-Zone traffic
 msgid "fw_forwarding"
 msgstr "Zone-to-Zone traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:5
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:5
 #. Firewall
 msgid "fw_fw"
 msgstr "Firewall"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:6
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:6
 #. Zone
 msgid "fw_zone"
 msgstr "Zone"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:7
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:7
 #. Zones
 msgid "fw_zones"
 msgstr "Zones"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:8
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:8
 #. Custom forwarding
 msgid "fw_custfwd"
 msgstr "Custom forwarding"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:9
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:9
 #. The firewall creates zones over your network interfaces to control network traffic flow.
 msgid "fw_fw1"
 msgstr "The firewall creates zones over your network interfaces to control network traffic flow."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:10
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:10
 #. Advanced Rules
 msgid "firewall_rule"
 msgstr "Advanced Rules"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:11
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:11
 #. Advanced rules let you customize the firewall to your needs. Only new connections will be matched. Packets belonging to already open connections are automatically allowed to pass the firewall.
 msgid "firewall_rule_desc"
 msgstr "Advanced rules let you customize the firewall to your needs. Only new connections will be matched. Packets belonging to already open connections are automatically allowed to pass the firewall."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:12
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:12
 #. Input Zone
 msgid "firewall_rule_src"
 msgstr "Input Zone"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:13
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:13
 #. Output Zone
 msgid "firewall_rule_dest"
 msgstr "Output Zone"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:14
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:14
 #. Source address
 msgid "firewall_rule_srcip"
 msgstr "Source address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:15
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:15
 #. Destination address
 msgid "firewall_rule_destip"
 msgstr "Destination address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:16
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:16
 #. Source MAC-Address
 msgid "firewall_rule_srcmac"
 msgstr "Source MAC-Address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:17
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:17
 #. Source port
 msgid "firewall_rule_srcport"
 msgstr "Source port"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:18
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:18
 #. Destination port
 msgid "firewall_rule_destport"
 msgstr "Destination port"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:19
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:19
 #. Action
 msgid "firewall_rule_target"
 msgstr "Action"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:20
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:20
 #. accept
 msgid "fw_accept"
 msgstr "accept"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:21
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:21
 #. reject
 msgid "fw_reject"
 msgstr "reject"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:22
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:22
 #. drop
 msgid "fw_drop"
 msgstr "drop"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:23
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:23
 #. Source
 msgid "fw_src"
 msgstr "Source"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:24
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:24
 #. Destination
 msgid "fw_dest"
 msgstr "Destination"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:25
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:25
 #. Traffic Control
 msgid "fw_traffic"
 msgstr "Traffic Control"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:26
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:26
 #. MSS Clamping
 msgid "fw_mtufix"
 msgstr "MSS Clamping"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:27
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:27
 #. Drop invalid packets
 msgid "fw_dropinvalid"
 msgstr "Drop invalid packets"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:28
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:28
 #. Port forwarding allows to provide network services in the internal network to an external network.
 msgid "fw_portfw1"
 msgstr "Port forwarding allows to provide network services in the internal network to an external network."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:29
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:29
 #. External Zone
 msgid "firewall_redirect_src_desc"
 msgstr "External Zone"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:30
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:30
 #. External port
 msgid "firewall_redirect_srcdport"
 msgstr "External port"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:31
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:31
 #. port or range as first-last
 msgid "firewall_redirect_srcdport_desc"
 msgstr "port or range as first-last"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:32
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:32
 #. Source address
 msgid "firewall_redirect_srcip"
 msgstr "Source address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:33
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:33
 #. Source MAC
 msgid "firewall_redirect_srcmac"
 msgstr "Source MAC"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:34
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:34
 #. Internal address
 msgid "firewall_redirect_destip"
 msgstr "Internal address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:35
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:35
 #. IP-Address
 msgid "firewall_redirect_destip_desc"
 msgstr "IP-Address"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:36
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:36
 #. Internal port (optional)
 msgid "firewall_redirect_destport"
 msgstr "Internal port (optional)"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:37
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:37
 #. port or range as first-last
 msgid "firewall_redirect_destport_desc"
 msgstr "port or range as first-last"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:38
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:38
 #. Here you can specify which network traffic is allowed to flow between network zones. Only new connections will be matched. Packets belonging to already open connections are automatically allowed to pass the firewall. If you experience occasional connection problems try enabling MSS Clamping otherwise disable it for performance reasons.
 msgid "fw_forwarding1"
 msgstr "Here you can specify which network traffic is allowed to flow between network zones. Only new connections will be matched. Packets belonging to already open connections are automatically allowed to pass the firewall. If you experience occasional connection problems try enabling MSS Clamping otherwise disable it for performance reasons."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:39
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:39
 #. Input
 msgid "firewall_forwarding_src"
 msgstr "Input"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:40
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:40
 #. Output
 msgid "firewall_forwarding_dest"
 msgstr "Output"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:41
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:41
 #. Defaults
 msgid "firewall_defaults"
 msgstr "Defaults"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:42
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:42
 #. These are the default settings that are used if no other rules match.
 msgid "firewall_defaults_desc"
 msgstr "These are the default settings that are used if no other rules match."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:43
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:43
 #. SYN-flood protection
 msgid "firewall_defaults_synflood"
 msgstr "SYN-flood protection"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:44
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:44
 #. Incoming Traffic
 msgid "firewall_defaults_input"
 msgstr "Incoming Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:45
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:45
 #. Outgoing Traffic
 msgid "firewall_defaults_output"
 msgstr "Outgoing Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:46
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:46
 #. Forwarded Traffic
 msgid "firewall_defaults_forward"
 msgstr "Forwarded Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:47
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:47
 #. Zones part the network interfaces into certain isolated areas to separate network traffic. One or more networks can belong to a zone. The MASQ-flag enables NAT masquerading for all outgoing traffic on this zone.
 msgid "firewall_zone_desc"
 msgstr "Zones part the network interfaces into certain isolated areas to separate network traffic. One or more networks can belong to a zone. The MASQ-flag enables NAT masquerading for all outgoing traffic on this zone."
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:48
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:48
 #. Incoming Traffic
 msgid "firewall_zone_input"
 msgstr "Incoming Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:49
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:49
 #. Default Policy
 msgid "firewall_zone_input_desc"
 msgstr "Default Policy"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:50
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:50
 #. Outgoing Traffic
 msgid "firewall_zone_output"
 msgstr "Outgoing Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:51
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:51
 #. Default Policy
 msgid "firewall_zone_output_desc"
 msgstr "Default Policy"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:52
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:52
 #. Forwarded Traffic
 msgid "firewall_zone_forward"
 msgstr "Forwarded Traffic"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:53
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:53
 #. Default Policy
 msgid "firewall_zone_forward_desc"
 msgstr "Default Policy"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:54
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:54
 #. MASQ
 msgid "firewall_zone_masq"
 msgstr "MASQ"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:55
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:55
 #. Networks
 msgid "firewall_zone_network"
 msgstr "Networks"
 
-#: ./i18n/english/luasrc/i18n/luci-fw.en.lua:56
+#: ./i18nsrc/luasrc/i18n/luci-fw.en.lua:56
 #. contained networks
 msgid "firewall_zone_network_desc"
 msgstr "contained networks"

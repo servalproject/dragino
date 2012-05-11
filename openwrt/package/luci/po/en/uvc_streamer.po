@@ -1,30 +1,30 @@
 #  uvc_streamer.po
-#  generated from ./i18n/english/luasrc/i18n/uvc_streamer.en.lua
+#  generated from ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua
 
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: ./i18n/english/luasrc/i18n/uvc_streamer.en.lua:1
+#: ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua:1
 #. Frames per second
 msgid "framespersecond"
 msgstr "Frames per second"
 
-#: ./i18n/english/luasrc/i18n/uvc_streamer.en.lua:2
+#: ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua:2
 #. Resolution
 msgid "resolution"
 msgstr "Resolution"
 
-#: ./i18n/english/luasrc/i18n/uvc_streamer.en.lua:3
+#: ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua:3
 #. Settings
 msgid "settings"
 msgstr "Settings"
 
-#: ./i18n/english/luasrc/i18n/uvc_streamer.en.lua:4
+#: ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua:4
 #. Webcam streaming
 msgid "uvc_streamer"
 msgstr "Webcam streaming"
 
-#: ./i18n/english/luasrc/i18n/uvc_streamer.en.lua:5
+#: ./i18nsrc/luasrc/i18n/uvc_streamer.en.lua:5
 #. Configure your Linux-UVC compatible webcam. Point your browser to e.g. <a href=\"http://%s:%i/\">http://%s:%i/</a>
 msgid "uvc_streamer_desc"
 msgstr "Configure your Linux-UVC compatible webcam. Point your browser to e.g. <a href=\"http://%s:%i/\">http://%s:%i/</a>"
