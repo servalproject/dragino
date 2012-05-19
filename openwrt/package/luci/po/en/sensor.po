@@ -30,34 +30,34 @@ msgid "d_s_g_local_location"
 msgstr "Sensor Data Location"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:6
-#. <abbr title=\"Unit: seconds. Min:60\">Update Interval</abbr> to Local File or Pachube
+#. <abbr title=\"Unit: seconds. Min:60\">Update Interval</abbr> to Local File or IoT Server
 msgid "d_s_g_interval"
-msgstr "<abbr title=\"Unit: seconds. Min:60\">Update Interval</abbr> to Local File or Pachube"
+msgstr "<abbr title=\"Unit: seconds. Min:60\">Update Interval</abbr> to Local File or IoT Server"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:7
-#. Pachube Service Configure
+#. IoT Server Configure
 msgid "d_s_p_settiings"
-msgstr "Pachube Service Configure"
+msgstr "IoT Server Configure"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:8
-#. Update Sensor Data to Pachube Server?
+#. Update Sensor Data to Cosm Server?
 msgid "d_s_p_enable"
-msgstr "Update Sensor Data to Pachube Server?"
+msgstr "Update Sensor Data to Cosm Server?"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:9
-#. Pachube User Name
+#. Cosm User Name
 msgid "d_s_p_user"
-msgstr "Pachube User Name"
+msgstr "Cosm User Name"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:10
-#. Pachube Feed ID
+#. Cosm Feed ID
 msgid "d_s_p_feed"
-msgstr "Pachube Feed ID"
+msgstr "Cosm Feed ID"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:11
-#. Pachube Secure Sharing Key
+#. Cosm Secure Sharing Key
 msgid "d_s_p_secure"
-msgstr "Pachube Secure Sharing Key"
+msgstr "Cosm Secure Sharing Key"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:12
 #. Sensor Port Configure
@@ -65,9 +65,9 @@ msgid "d_s_s_configure"
 msgstr "Sensor Port Configure"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:13
-#. <abbr title=\"datastream ID when update to Pachube\">Sensor ID</abbr>
+#. <abbr title=\"datastream ID when update to Cosm\">Sensor ID</abbr>
 msgid "d_s_s_ID"
-msgstr "<abbr title=\"datastream ID when update to Pachube\">Sensor ID</abbr>"
+msgstr "<abbr title=\"datastream ID when update to Cosm\">Sensor ID</abbr>"
 
 #: ./i18nsrc/luasrc/i18n/sensor.en.lua:14
 #. Description of This Sensor

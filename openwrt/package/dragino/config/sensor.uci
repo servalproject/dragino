@@ -1,7 +1,7 @@
 
 config 'settings' 'pachube'
 	option 'enable_update' '0'
-	option 'api_url' 'http://api.pachube.com/v2/feeds/'
+	option 'api_url' 'http://api.cosm.com/v2/feeds/'
 	option 'feed' ''
 	option 'apikey' ''
 	option 'user' ''
