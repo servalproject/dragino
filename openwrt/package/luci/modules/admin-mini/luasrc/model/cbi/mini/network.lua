@@ -57,13 +57,13 @@ end
 function w.write(self,section,value)
 	if value == "ath0" then
 		m.uci:set("wireless",wifiinterface,"network","wan") 
-		m.uci:set("wireless",wifiinterface,"mod","sta")
+		m.uci:set("wireless",wifiinterface,"mode","sta")
 		m.uci:set("network","wan","ifname","ath0")	
 		m.uci:set("network","lan","ifname","eth0")	
 	end
 	if value == "eth0" then
 		m.uci:set("wireless",wifiinterface,"network","lan") 
-		m.uci:set("wireless",wifiinterface,"mod","ap")
+		m.uci:set("wireless",wifiinterface,"mode","ap")
 		m.uci:set("network","wan","ifname","eth0")	
 		m.uci:set("network","lan","ifname","ath0")
 	end
