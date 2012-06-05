@@ -85,7 +85,7 @@ config service "myddns"
 	#option	ip_script	"path to your scrip"
 
 	option ip_source	"web"
-	option ip_url		"http://www.whatismyip.com/automation/n09230945.asp"
+	option ip_url		"http://automation.whatismyip.com/n09230945.asp"
 
 	#option update_url	"http://[USERNAME]:[PASSWORD]@members.dyndns.org/nic/update?hostname=[DOMAIN]&myip=[IP]"
 

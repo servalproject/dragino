@@ -62,7 +62,7 @@ msgstr "Essentials"
 #: i18nsrc/en/default.en.lua:12
 #. Apply
 msgid "apply"
-msgstr "Apply"
+msgstr "应用"
 
 #: i18nsrc/en/default.en.lua:13
 #. Basic Settings
@@ -82,7 +82,7 @@ msgstr "Changes"
 #: i18nsrc/en/default.en.lua:16
 #. Channel
 msgid "channel"
-msgstr "Channel"
+msgstr "通道"
 
 #: i18nsrc/en/default.en.lua:17
 #. <abbr title=\"Classless Inter-Domain Routing\">CIDR</abbr>-Notation: address/prefix
@@ -112,7 +112,7 @@ msgstr "Confirmation"
 #: i18nsrc/en/default.en.lua:22
 #. Delete
 msgid "delete"
-msgstr "Delete"
+msgstr "删除"
 
 #: i18nsrc/en/default.en.lua:23
 #. Description
@@ -157,27 +157,27 @@ msgstr "Kernel Log"
 #: i18nsrc/en/default.en.lua:31
 #. <abbr title=\"Domain Name System\">DNS</abbr>-Server
 msgid "dnsserver"
-msgstr "<abbr title=\"Domain Name System\">DNS</abbr>-Server"
+msgstr "DNS服务器"
 
 #: i18nsrc/en/default.en.lua:32
 #. Edit
 msgid "edit"
-msgstr "Edit"
+msgstr "编辑"
 
 #: i18nsrc/en/default.en.lua:33
 #. enable
 msgid "enable"
-msgstr "enable"
+msgstr "启用"
 
 #: i18nsrc/en/default.en.lua:34
 #. Encryption
 msgid "encryption"
-msgstr "Encryption"
+msgstr "安全类型"
 
 #: i18nsrc/en/default.en.lua:35
 #. Error
 msgid "error"
-msgstr "Error"
+msgstr "错误"
 
 #: i18nsrc/en/default.en.lua:36
 #. Filesystem
@@ -192,7 +192,7 @@ msgstr "Filter"
 #: i18nsrc/en/default.en.lua:38
 #. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Gateway
 msgid "gateway"
-msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Gateway"
+msgstr "默认网关"
 
 #: i18nsrc/en/default.en.lua:39
 #. <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Gateway
@@ -202,12 +202,12 @@ msgstr "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Gateway"
 #: i18nsrc/en/default.en.lua:40
 #. General
 msgid "general"
-msgstr "General"
+msgstr "通用"
 
 #: i18nsrc/en/default.en.lua:41
 #. Hostname
 msgid "hostname"
-msgstr "Hostname"
+msgstr "设备主机名"
 
 #: i18nsrc/en/default.en.lua:42
 #. Install
@@ -222,17 +222,17 @@ msgstr "installed"
 #: i18nsrc/en/default.en.lua:44
 #. Interface
 msgid "interface"
-msgstr "Interface"
+msgstr "网络"
 
 #: i18nsrc/en/default.en.lua:45
 #. Interfaces
 msgid "interfaces"
-msgstr "Interfaces"
+msgstr "网络连接"
 
 #: i18nsrc/en/default.en.lua:46
 #. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Address
 msgid "ipaddress"
-msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Address"
+msgstr "IP地址"
 
 #: i18nsrc/en/default.en.lua:47
 #. <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Address
@@ -252,17 +252,17 @@ msgstr "Library"
 #: i18nsrc/en/default.en.lua:50
 #. Logout
 msgid "logout"
-msgstr "Logout"
+msgstr "注销"
 
 #: i18nsrc/en/default.en.lua:51
 #. Key
 msgid "key"
-msgstr "Key"
+msgstr "密钥"
 
 #: i18nsrc/en/default.en.lua:52
 #. Language
 msgid "language"
-msgstr "Language"
+msgstr "语言"
 
 #: i18nsrc/en/default.en.lua:53
 #. Limit
@@ -272,12 +272,12 @@ msgstr "Limit"
 #: i18nsrc/en/default.en.lua:54
 #. Load
 msgid "load"
-msgstr "Load"
+msgstr "系统负载"
 
 #: i18nsrc/en/default.en.lua:55
 #. Login
 msgid "login"
-msgstr "Login"
+msgstr "登录"
 
 #: i18nsrc/en/default.en.lua:56
 #. <abbr title=\"Media Access Control\">MAC</abbr>-Address
@@ -297,7 +297,7 @@ msgstr "Metric"
 #: i18nsrc/en/default.en.lua:59
 #. Mode
 msgid "mode"
-msgstr "Mode"
+msgstr "模式"
 
 #: i18nsrc/en/default.en.lua:60
 #. Name
@@ -307,12 +307,12 @@ msgstr "Name"
 #: i18nsrc/en/default.en.lua:61
 #. <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Netmask
 msgid "netmask"
-msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Netmask"
+msgstr "子网掩码"
 
 #: i18nsrc/en/default.en.lua:62
 #. Network
 msgid "network"
-msgstr "Network"
+msgstr "网络"
 
 #: i18nsrc/en/default.en.lua:63
 #. Networks
@@ -352,7 +352,7 @@ msgstr "Package Manager"
 #: i18nsrc/en/default.en.lua:70
 #. Password
 msgid "password"
-msgstr "Password"
+msgstr "密码"
 
 #: i18nsrc/en/default.en.lua:71
 #. Path
@@ -372,17 +372,17 @@ msgstr "Ports"
 #: i18nsrc/en/default.en.lua:74
 #. Protocol
 msgid "protocol"
-msgstr "Protocol"
+msgstr "协议"
 
 #: i18nsrc/en/default.en.lua:75
 #. Reboot
 msgid "reboot"
-msgstr "Reboot"
+msgstr "重启"
 
 #: i18nsrc/en/default.en.lua:76
 #. Reset
 msgid "reset"
-msgstr "Reset"
+msgstr "重置"
 
 #: i18nsrc/en/default.en.lua:77
 #. Revert
@@ -392,17 +392,17 @@ msgstr "Revert"
 #: i18nsrc/en/default.en.lua:78
 #. Save
 msgid "save"
-msgstr "Save"
+msgstr "保存"
 
 #: i18nsrc/en/default.en.lua:79
 #. Save &amp; Apply
 msgid "saveapply"
-msgstr "Save &amp; Apply"
+msgstr "保存 &amp; 应用"
 
 #: i18nsrc/en/default.en.lua:80
 #. Scan
 msgid "scan"
-msgstr "Scan"
+msgstr "扫描"
 
 #: i18nsrc/en/default.en.lua:81
 #. Service
@@ -452,27 +452,27 @@ msgstr "Statistics"
 #: i18nsrc/en/default.en.lua:90
 #. Submit
 msgid "submit"
-msgstr "Submit"
+msgstr "提交"
 
 #: i18nsrc/en/default.en.lua:91
 #. System Log
 msgid "syslog"
-msgstr "System Log"
+msgstr "系统日志"
 
 #: i18nsrc/en/default.en.lua:92
 #. Syslog
 msgid "syslog1"
-msgstr "Syslog"
+msgstr "日志"
 
 #: i18nsrc/en/default.en.lua:93
 #. System
 msgid "system"
-msgstr "System"
+msgstr "系统信息"
 
 #: i18nsrc/en/default.en.lua:94
 #. System
 msgid "system1"
-msgstr "System"
+msgstr "系统"
 
 #: i18nsrc/en/default.en.lua:95
 #. Target
@@ -482,7 +482,7 @@ msgstr "Target"
 #: i18nsrc/en/default.en.lua:96
 #. Timezone
 msgid "timezone"
-msgstr "Timezone"
+msgstr "时区"
 
 #: i18nsrc/en/default.en.lua:97
 #. Type
@@ -502,12 +502,12 @@ msgstr "Unsaved Changes"
 #: i18nsrc/en/default.en.lua:100
 #. Username
 msgid "username"
-msgstr "Username"
+msgstr "用户名"
 
 #: i18nsrc/en/default.en.lua:101
 #. Version
 msgid "version"
-msgstr "Version"
+msgstr "版本"
 
 #: i18nsrc/en/default.en.lua:102
 #. Web <abbr title=\"User Interface\">UI</abbr>
@@ -517,7 +517,7 @@ msgstr "Web <abbr title=\"User Interface\">UI</abbr>"
 #: i18nsrc/en/default.en.lua:103
 #. Wifi
 msgid "wifi"
-msgstr "Wifi"
+msgstr "无线"
 
 #: i18nsrc/en/default.en.lua:104
 #. Zone

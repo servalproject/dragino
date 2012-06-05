@@ -22,5 +22,5 @@ function index()
 	luci.i18n.loadc("admin-core")
 	local i18n = luci.i18n.translate
 	
-	entry({"ddns"}, cbi("ddns/ddns", {autoapply=true}), "Dynamic DNS", 60).i18n="sensor"
+	entry({"ddns"}, cbi("ddns/ddns", {autoapply=true}), i18n("ddns","Dynamic DNS"), 60).i18n="sensor"
 end

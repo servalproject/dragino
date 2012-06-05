@@ -192,5 +192,5 @@ msgstr "WPA-Encryption requires wpa_supplicant (for client mode) or hostapd (for
 #: i18nsrc/en/wifi.en.lua:38
 #. 40bit/104bit WEP is autodetected based on key length. Use either 5/13 ASCII or 10/26 HEX characters as WEP key. A valid ASCII-based key will be translated into a HEX-based one. WPA(2)-PSK keys should be 64 HEX characters.
 msgid "wifi_keyreq"
-msgstr "40bit/104bit WEP is autodetected based on key length. Use either 5/13 ASCII or 10/26 HEX characters as WEP key. A valid ASCII-based key will be translated into a HEX-based one. WPA(2)-PSK keys should be 64 HEX characters."
+msgstr "如果使用WEP加密方式，系统会根据您的输入自动生成40或104位的二进制密钥，有效的输入是: 5/13位的ASCII字符或者 10/26位的十六进制字符。如果选择WPA(2)PSK加密，请输入64位十六进制字符。"
 

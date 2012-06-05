@@ -20,7 +20,7 @@ function index()
 	luci.i18n.loadc("admin-core")
 	local i18n = luci.i18n.translate
 
-	entry({"upgrade"}, call("action_upgrade"), i18n("admin_upgrade"), 1).i18n="upgrade"
+	entry({"upgrade"}, call("action_upgrade"), i18n("admin_upgrade_system"), 1).i18n="upgrade"
 end
 
 function action_upgrade()

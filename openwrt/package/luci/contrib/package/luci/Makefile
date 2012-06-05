@@ -877,6 +877,16 @@ define Package/luci-i18n-spanish/install
 	$(call Package/luci/install/template,$(1),i18n/spanish)
 endef
 
+### Chinese Package for dragino ###
+define Package/luci-i18n-chinese
+  $(call Package/luci/i18ntemplate)
+  TITLE:=Chinese (by Edwin Chen)
+endef
+
+define Package/luci-i18n-chinese/install
+	$(call Package/luci/install/template,$(1),i18n/chinese)
+endef
+
 
 ### Collections ###
 define Package/luci
@@ -1125,7 +1135,9 @@ endif
 ifneq ($(CONFIG_PACKAGE_luci-i18n-spanish),)
 	PKG_SELECTED_MODULES+=i18n/spanish
 endif
-
+ifneq ($(CONFIG_PACKAGE_luci-i18n-chinese),)
+	PKG_SELECTED_MODULES+=i18n/chinese
+endif
 
 MAKE_FLAGS += \
 	MODULES="$(PKG_SELECTED_MODULES)" \
@@ -1205,6 +1217,7 @@ $(eval $(call BuildPackage,luci-i18n-greek))
 $(eval $(call BuildPackage,luci-i18n-catalan))
 $(eval $(call BuildPackage,luci-i18n-portuguese))
 $(eval $(call BuildPackage,luci-i18n-spanish))
+$(eval $(call BuildPackage,luci-i18n-chinese))
 
 $(eval $(call BuildPackage,luci))
 $(eval $(call BuildPackage,luci-ssl))

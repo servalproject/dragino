@@ -7,85 +7,85 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 #: i18nsrc/en/cbi.en.lua:1
 #. Add entry
 msgid "cbi_add"
-msgstr "Add entry"
+msgstr "添加条目"
 
 #: i18nsrc/en/cbi.en.lua:2
 #. Remove entry
 msgid "cbi_del"
-msgstr "Remove entry"
+msgstr "移除条目"
 
 #: i18nsrc/en/cbi.en.lua:3
 #. Replace entry
 msgid "cbi_replace"
-msgstr "Replace entry"
+msgstr "替换条目"
 
 #: i18nsrc/en/cbi.en.lua:4
 #. Invalid input value
 msgid "cbi_invalid"
-msgstr "Invalid input value"
+msgstr "输入数据无效"
 
 #: i18nsrc/en/cbi.en.lua:5
 #. <strong>Validation failed:</strong> Please check any input fields for mistakes.
 msgid "cbi_invalid_section"
-msgstr "<strong>Validation failed:</strong> Please check any input fields for mistakes."
+msgstr "<strong>输入有效性检查失败:</strong> 请检查输入数据的有效性."
 
 #: i18nsrc/en/cbi.en.lua:6
 #. This field is mandatory
 msgid "cbi_missing"
-msgstr "This field is mandatory"
+msgstr "这个是必填项"
 
 #: i18nsrc/en/cbi.en.lua:7
 #. <strong>Validation failed:</strong> At least one mandatory field has no or an invalid value
 msgid "cbi_deperror"
-msgstr "<strong>Validation failed:</strong> At least one mandatory field has no or an invalid value"
+msgstr "<strong>输入有效性检查失败:/strong> 起码有一个必填项没有输入或者输入错误."
 
 #: i18nsrc/en/cbi.en.lua:8
 #. A requirement for this option was not met
 msgid "cbi_reqerror"
-msgstr "A requirement for this option was not met"
+msgstr "这个选项不符合要求"
 
 #: i18nsrc/en/cbi.en.lua:9
 #. -- Additional Field --
 msgid "cbi_addopt"
-msgstr "-- Additional Field --"
+msgstr "-- 附件部分 --"
 
 #: i18nsrc/en/cbi.en.lua:10
 #.  (optional)
 msgid "cbi_optional"
-msgstr " (optional)"
+msgstr "(可选)"
 
 #: i18nsrc/en/cbi.en.lua:11
 #. This section contains no values yet
 msgid "cbi_sectempty"
-msgstr "This section contains no values yet"
+msgstr "这个部分还没有值"
 
 #: i18nsrc/en/cbi.en.lua:12
 #. -- custom --
 msgid "cbi_manual"
-msgstr "-- custom --"
+msgstr "-- 自定义 --"
 
 #: i18nsrc/en/cbi.en.lua:13
 #. -- Please choose --
 msgid "cbi_select"
-msgstr "-- Please choose --"
+msgstr "-- 请选择 --"
 
 #: i18nsrc/en/cbi.en.lua:14
 #. Go to relevant configuration page
 msgid "cbi_gorel"
-msgstr "Go to relevant configuration page"
+msgstr "打开相关配置页面"
 
 #: i18nsrc/en/cbi.en.lua:15
 #. Applying changes
 msgid "cbi_applying"
-msgstr "Applying changes"
+msgstr "提交改动"
 
 #: i18nsrc/en/cbi.en.lua:16
 #. Uploaded File
 msgid "cbi_upload"
-msgstr "Uploaded File"
+msgstr "上传文件"
 
 #: i18nsrc/en/cbi.en.lua:17
 #. Search file...
 msgid "cbi_browser"
-msgstr "Search file..."
+msgstr "查找文件..."
 

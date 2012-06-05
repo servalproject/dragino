@@ -46,9 +46,9 @@ m = Map("network", translate("network"), translate("m_n_network"))
 s = m:section(NamedSection, "wan", "interface", translate("m_n_inet"))
 s.addremove = false
 
-w = s:option(ListValue, "_waniface", "WAN Interface")
-w:value("ath0","WiFi Interface")
-w:value("eth0","Ethernet Port")
+w = s:option(ListValue, "_waniface", translate("m_n_wan"))
+w:value("ath0",translate("m_n_wifi"))
+w:value("eth0",translate("m_n_rj45"))
 
 function w.cfgvalue(self,section)
  return uci:get("network","wan","ifname")
@@ -168,11 +168,11 @@ srv.rmempty = true
 s = m:section(NamedSection, "lan", "interface", translate("m_n_local"))
 s.addremove = false
 
-l = s:option(DummyValue, "_laniface", "LAN Interface")
+l = s:option(DummyValue, "_laniface", translate("m_n_lan"))
 if uci:get("network","lan","ifname") == "ath0" then
-l.value = "WiFi Interface"
+l.value = translate("m_n_wifi")
 elseif uci:get("network","lan","ifname") == "eth0" then
-l.value = "Ethernet Port"
+l.value = translate("m_n_rj45")
 end
 
 s:option(Value, "ipaddr", translate("ipaddress"))
