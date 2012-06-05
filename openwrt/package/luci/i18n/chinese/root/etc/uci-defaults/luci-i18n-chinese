@@ -1,0 +1,6 @@
+#!/bin/sh
+uci batch <<-EOF
+	set luci.languages.zh_cn=Chinese
+        commit luci
+EOF
+	
