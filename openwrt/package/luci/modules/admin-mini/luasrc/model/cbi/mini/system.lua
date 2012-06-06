@@ -78,6 +78,25 @@ function tz.write(self, section, value)
 	AbstractValue.write(self, section, value)
 	self.map.uci:set("system", section, "timezone", lookup_zone(value) or "GMT0")
 end
+
+l = s:option(ListValue, "language", translate("language"))
+local lang = luci.model.uci.cursor_state():get_all("luci","languages")
+for k,v in pairs(lang) do
+	if not string.find(k, "%..") then
+		l:value(k,v)
+	end
+end
+
+function l.cfgvalue(self,section)
+	return uci:get("luci","main","lang")
+end
+
+function l.write(self,section,value)
+	uci:set("luci","main","lang",value)
+	uci:save("luci")
+	uci:commit("luci")
+end
+
  
 s:option(DummyValue, "_systime", translate("m_i_systemtime")).value =
  os.date("%c")
