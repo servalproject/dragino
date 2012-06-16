@@ -40,137 +40,147 @@ msgid "d_s_p_settiings"
 msgstr "物联网服务端配置"
 
 #: i18nsrc/en/sensor.en.lua:8
-#. Update Sensor Data to Cosm Server?
-msgid "d_s_p_enable"
-msgstr "是否上传数据到<abbr title=\"https://cosm.com\">Cosm</abbr>服务器"
-
-#: i18nsrc/en/sensor.en.lua:9
 #. Cosm User Name
 msgid "d_s_p_user"
 msgstr "Cosm 用户名"
 
-#: i18nsrc/en/sensor.en.lua:10
+#: i18nsrc/en/sensor.en.lua:9
 #. Cosm Feed ID
 msgid "d_s_p_feed"
 msgstr "Cosm Feed ID"
 
-#: i18nsrc/en/sensor.en.lua:11
+#: i18nsrc/en/sensor.en.lua:10
 #. Cosm Secure Sharing Key
 msgid "d_s_p_secure"
 msgstr "Cosm API 密钥"
 
-#: i18nsrc/en/sensor.en.lua:12
+#: i18nsrc/en/sensor.en.lua:11
 #. Sensor Port Configure
 msgid "d_s_s_configure"
 msgstr "传感端口配置"
 
-#: i18nsrc/en/sensor.en.lua:13
+#: i18nsrc/en/sensor.en.lua:12
 #. <abbr title=\"datastream ID when update to Cosm\">Sensor ID</abbr>
 msgid "d_s_s_ID"
 msgstr "<abbr title=\"当上传到Cosm时, 此为对应的datastream ID\">传感器 ID</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:14
+#: i18nsrc/en/sensor.en.lua:13
 #. Description of This Sensor
 msgid "d_s_s_description"
 msgstr "描述"
 
-#: i18nsrc/en/sensor.en.lua:16
+#: i18nsrc/en/sensor.en.lua:15
 #. Dynamic DNS allows that your Dragino can be reached with a fixed hostname while having a dynamically changing IP-Address.
 msgid "ddns_desc"
 msgstr "DDNS服务可以让您没有固定IP的情况下仍可以通过固定域名监控您的Dragino"
 
-#: i18nsrc/en/sensor.en.lua:17
+#: i18nsrc/en/sensor.en.lua:16
 #. <abbr title=\"where to look for your actual WAN IP Address\">Source of IP-Address</abbr>
 msgid "ddns_service_ipsource"
 msgstr "<abbr title=\"如何获取本机的实际外网IP\">外网IP源</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:18
+#: i18nsrc/en/sensor.en.lua:17
 #. <abbr title=\"Get WAN IP Address from Dragino WAN port\">Network</abbr>
 msgid "ddns_source_network"
 msgstr "<abbr title=\"从Dragino的网络接口获取外网IP\">网络接口</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:19
+#: i18nsrc/en/sensor.en.lua:18
 #. <abbr title=\"Get WAN IP Address from Dragino network interface\">Interface</abbr>
 msgid "ddns_source_interface"
 msgstr "<abbr title=\"从Dragino的物理网口获取外网IP\">物理网口</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:20
+#: i18nsrc/en/sensor.en.lua:19
 #. <abbr title=\"Get WAN IP from URL, etc:http://www.whatismyip.com/automation/n09230945.asp\">URL</abbr>
 msgid "ddns_source_url"
 msgstr "<abbr title=\"从外部URL获取实际公网IP . 如:http://automation.whatismyip.com/n09230945.asp\">URL</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:21
+#: i18nsrc/en/sensor.en.lua:20
 #. <abbr title=\"How often to check an update is necessary\">Check for changed IP every</abbr>
 msgid "ddns_service_checkinterval"
 msgstr "<abbr title=\"多长时间检测是否需要更新外网IP到DDNS服务器\">检查IP是否变更于每</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:22
+#: i18nsrc/en/sensor.en.lua:21
 #. Check-Time unit
 msgid "ddns_service_checkunit"
 msgstr "检查更新时间单位"
 
-#: i18nsrc/en/sensor.en.lua:23
+#: i18nsrc/en/sensor.en.lua:22
 #. <abbr title=\"How often to force an update\">Force update every</abbr>
 msgid "ddns_service_forceinterval"
 msgstr "<abbr title=\"多长时间强制更新一次外网IP到DDNS服务器\">强制更新于每</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:24
+#: i18nsrc/en/sensor.en.lua:23
 #. Force-Time unit
 msgid "ddns_service_forceunit"
 msgstr "强制更新时间单位"
 
-#: i18nsrc/en/sensor.en.lua:25
+#: i18nsrc/en/sensor.en.lua:24
 #. Custom Update-URL
 msgid "ddns_service_updateurl"
 msgstr "自定义更新的URL"
 
-#: i18nsrc/en/sensor.en.lua:26
+#: i18nsrc/en/sensor.en.lua:25
 #. Enable DDNS Service
 msgid "ddns_enable"
 msgstr "启用DDNS动态域名服务"
 
-#: i18nsrc/en/sensor.en.lua:27
+#: i18nsrc/en/sensor.en.lua:26
 #. <abbr title=\"Choose Your DDNS Service Provider\">DDNS Service Provider</abbr>
 msgid "ddns_service_name"
 msgstr "<abbr title=\"选择您的动态域名服务商\">DDNS 服务提供商</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:28
+#: i18nsrc/en/sensor.en.lua:27
 #. <abbr title=\"DNS Name of the ip,as configured in the DDNS site\">Domain</abbr>
 msgid "ddns_service_domain"
 msgstr "<abbr title=\"您在DDNS服务提供商上配置/获取的域名\">动态域名</abbr>"
 
-#: i18nsrc/en/sensor.en.lua:29
+#: i18nsrc/en/sensor.en.lua:28
 #. Username
 msgid "ddns_service_username"
 msgstr "用户名"
 
-#: i18nsrc/en/sensor.en.lua:30
+#: i18nsrc/en/sensor.en.lua:29
 #. Password
 msgid "ddns_service_password"
 msgstr "密码"
 
-#: i18nsrc/en/sensor.en.lua:31
+#: i18nsrc/en/sensor.en.lua:30
 #. URL
 msgid "url"
 msgstr "URL"
 
-#: i18nsrc/en/sensor.en.lua:32
+#: i18nsrc/en/sensor.en.lua:31
 #. Network
 msgid "network"
 msgstr "网络接口"
 
-#: i18nsrc/en/sensor.en.lua:33
+#: i18nsrc/en/sensor.en.lua:32
 #. Interface
 msgid "interface"
 msgstr "物理网口"
 
-#: i18nsrc/en/sensor.en.lua:34
+#: i18nsrc/en/sensor.en.lua:33
 #. minutes
 msgid "min"
 msgstr "分钟"
 
-#: i18nsrc/en/sensor.en.lua:35
+#: i18nsrc/en/sensor.en.lua:34
 #. hours
 msgid "h"
 msgstr "小时"
+
+#: i18nsrc/en/sensor.en.lua:35
+#. Update data to <abbr title=\"Internet of Things\">IoT</abbr> Server
+msgid "IoT_enable"
+msgstr "更新数据到物联网服务器？"
+
+#: i18nsrc/en/sensor.en.lua:36
+#. IoT Service
+msgid "IoT_service"
+msgstr "服务器"
+
+#: i18nsrc/en/sensor.en.lua:37
+#. Custom Update Command
+msgid "IoT_command"
+msgstr "自定义更新指令"
 

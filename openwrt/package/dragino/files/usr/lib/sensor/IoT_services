@@ -1,10 +1,10 @@
 # This file contains the update urls for various Internet of Things service
 # Column one contains the service name, column two contains the update url.
-# within the update url there are 3 variables you can use: [FEED], 
-# [API_KEY] and [SENSOR_DATA].  These are substituted for the FEED (FEED), 
-# and API_KEY specified in the /etc/config/sensor file when an 
+# within the update url there are 3 variables you can use: [USERNAME](or FEED in Cosm), 
+# [PASSWORD]( or API_KEY in Cosm) and [SENSOR_DATA].  These are substituted for the USERNAME, 
+# and PASSWORD specified in the /etc/config/sensor file when an 
 # update is performed.  
-# The SENSOR_DATA will be replaced with the sensor data get from plug in board
+# The [SENSOR_DATA] will be replaced with the sensor data get from plug in board
 
 "cosm.com"	"curl --request PUT --data-binary [SENSOR_DATA] --header "X-PachubeApiKey: [PASSWORD]" http://api.cosm.com/v2/feeds/[USERNAME].csv"
 

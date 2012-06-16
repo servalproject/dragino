@@ -4,7 +4,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dragino
 PKG_VERSION:=2.1-beta
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
@@ -43,6 +43,9 @@ define Package/dragino/install
 	$(SED) 's,$$$$F,$(PKG_VERSION)-$(PKG_RELEASE),g' $(1)/etc/banner
 	$(SED) 's,$$$$T,$(BUILD_TIME),g' $(1)/etc/banner
 
+	$(INSTALL_DIR) $(1)/usr/lib/sensor
+	$(INSTALL_DATA) $(PKG_BUILD_DIR)/files/usr/lib/sensor/IoT_services $(1)/usr/lib/sensor/IoT_services
+
 	$(INSTALL_DIR) $(1)/etc/config
 	$(INSTALL_DATA) $(PKG_BUILD_DIR)/sensor.uci $(1)/etc/config/sensor
 	$(INSTALL_DIR) $(1)/etc/init.d
@@ -50,8 +53,8 @@ define Package/dragino/install
 
 	$(INSTALL_DIR) $(1)/usr/sbin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/luad $(1)/usr/sbin/
-	$(LN) /usr/sbin/luad $(1)/usr/sbin/pachubed
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/pachubed.lua $(1)/usr/sbin/
+	$(LN) /usr/sbin/luad $(1)/usr/sbin/IoTd
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/IoTd.lua $(1)/usr/sbin/
 
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/fdude.lua $(1)/usr/bin/fdude

@@ -1,7 +1,7 @@
 --[[
 
-    pachube.lua - Lua Script to get message from UART port 
-	and PUT the data to www.pachube.com in a pre-defined time interval
+    IoTd.lua - Lua Script to get message from UART port 
+	and PUT the data to IoT (internet of things) server in a pre-defined time interval
 	user can also record data in a local file. 
 
     Copyright (C) 2011 edwin chen <edwin@dragino.com>
@@ -35,16 +35,30 @@ for k, v in pairs(sensor) do
 	end 
 end
 
-local PACHUBE_ENABLE = sensor.pachube.enable_update
+local IoT_ENABLE = sensor.IoT.enabled
 local MIN_UPDATE_INTERVAL = tonumber(sensor.main.update_interval)   -- Pachube update interval. unit: Second.
+local update_command
 
-if PACHUBE_ENABLE == "1" then
-	feeds	= sensor.pachube.feed 							-- modify it to use YOUR_FEED. use csv format here.
-	api_key	= sensor.pachube.apikey 		-- put YOUR_API key here. 
-
-	pachube_api	= sensor.pachube.api_url    						 
-	my_feeds	= pachube_api .. feeds .. '.csv'			-- use csv format by defult.						
-	my_api_key	= '\"X-PachubeApiKey: ' .. api_key .. '\" '
+if IoT_ENABLE == "1" then
+	if sensor.IoT.update_url  then
+		update_command = sensor.IoT.update_url
+	else
+		-- get IoT Server update templete and build update_command according to user info 
+		local fd = io.open("/usr/lib/sensor/IoT_services", "r")
+		if fd then
+			local ln
+			repeat
+				ln = fd:read("*l")
+				local s = ln and ln:match('^%s*"([^"]+)"')
+				if s == sensor.IoT.IoTServer then
+					local u = string.gsub(ln,'^%s*"([^"]+)"%s*',"")
+					u = string.gsub(u:match('^"(.+)"'),'%[USERNAME%]',sensor.IoT.username)
+					update_command = string.gsub(u,'%[PASSWORD%]',sensor.IoT.password)
+				end
+			until not ln
+			fd:close()
+		end
+	end
 end						
 
 local LOCAL_RECORD_ENABLE = sensor.main.enable_local_record						-- enable record to local file , set to nil to disable
@@ -94,10 +108,9 @@ while 1 do
 			end
 		end
 		csv_string = '\"' .. csv_string .. '\"'
-		
-		if PACHUBE_ENABLE == "1" then					--update pachube feeds
-			CMD_UPDATE_FEED_TO_PACHUBE	=  'curl --request PUT --data-binary ' .. csv_string .. ' --header ' ..  my_api_key .. my_feeds
-			os.execute(CMD_UPDATE_FEED_TO_PACHUBE)			--update feeds
+		if IoT_ENABLE == "1" then					--update pachube feeds
+			local update_command_final = string.gsub(update_command,'%[SENSOR_DATA%]',csv_string)
+			os.execute(update_command_final)			--update feeds
 		end
 
 		if LOCAL_RECORD_ENABLE == "1" then					--record in a local file. 

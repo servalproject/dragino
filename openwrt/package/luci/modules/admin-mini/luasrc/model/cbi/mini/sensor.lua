@@ -39,19 +39,59 @@ function interval.validate(self,value)
 	return value
 end
 
-s = m:section(NamedSection, "pachube", "settings", translate("d_s_p_settiings"))
+s = m:section(NamedSection, "IoT", "settings", translate("d_s_p_settiings"))
 
-pachube_enable = s:option(Flag, "enable_update", translate("d_s_p_enable"))
-pachube_enable.rmempty = false
+s:option(Flag, "enabled", translate("IoT_enable"))
 
-pachube_user = s:option(Value, "user", translate("d_s_p_user"))
-pachube_user:depends({enable_update=1})
+IoT_Server = s:option(ListValue, "IoTServer", translate("IoT_service"))
+IoT_Server.rmempty = false
+local services = { }
+local fd = io.open("/usr/lib/sensor/IoT_services", "r")
+if fd then
+	local ln
+	repeat
+		ln = fd:read("*l")
+		local s = ln and ln:match('^%s*"([^"]+)"')
+		if s then services[#services+1] = s end
+	until not ln
+	fd:close()
+end
 
-pachube_feed = s:option(Value, "feed", translate("d_s_p_feed"))
-pachube_feed:depends({enable_update=1})
+local v
+for _, v in luci.util.vspairs(services) do
+	IoT_Server:value(v)
+end
 
-api_key = s:option(Value, "apikey", translate("d_s_p_secure"))
-api_key:depends({enable_update=1})
+function IoT_Server.cfgvalue(...)
+	local v = Value.cfgvalue(...)
+	if not v or #v == 0 then
+		return "-"
+	else
+		return v
+	end
+end
+
+function IoT_Server.write(self, section, value)
+	if value == "-" then
+		m.uci:delete("sensor", section, self.option)
+	else
+		Value.write(self, section, value)
+	end
+end
+
+IoT_Server:value("-", "-- ".."custom".." --")
+
+url = s:option(Value, "update_url", translate("IoT_command"))
+url:depends("IoTServer", "-")
+url.rmempty = true
+
+username = s:option(Value, "username")
+username:depends("IoTServer","cosm.com")
+username.title=translate("d_s_p_feed")
+
+password = s:option(Value, "password")
+password:depends("IoTServer","cosm.com")
+password.title=translate("d_s_p_secure")
 
 
 --[[

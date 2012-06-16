@@ -37,11 +37,11 @@ start()
 
 	chmod 666 /dev/spidev0.0
 
-	/usr/sbin/pachubed 
+	/usr/sbin/IoTd 
 }
 
 stop()
 {
-	/usr/sbin/pachubed -k
-	rm -rf /var/run/pachubed
+	/usr/sbin/IoTd -k
+	rm -rf /var/run/IoTd
 }

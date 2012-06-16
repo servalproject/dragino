@@ -1,16 +1,12 @@
 
-config 'settings' 'pachube'
-	option 'enable_update' '0'
-	option 'api_url' 'http://api.cosm.com/v2/feeds/'
-	option 'feed' ''
-	option 'apikey' ''
-	option 'user' ''
+config 'settings' 'IoT'
+	option 'IoTServer' 'cosm.com'
 
 config 'settings' 'main'
-	option 'enable_local_record' '0'
 	option 'record_file' '/var/log/sensor.log'
 	option 'record_file_size' '10e4'
 	option 'update_interval' '60'
+	option 'enable_local_record' '1'
 
 config 'sensorport' 'port1'
 	option 'description' 'sensor port 1'
@@ -18,7 +14,7 @@ config 'sensorport' 'port1'
 
 config 'sensorport' 'port2'
 	option 'description' 'sensor port 2'
-	option 'name' 'sensor2'
+	option 'name' 'water'
 
 config 'sensorport' 'port3'
 	option 'name' 'sensor3'
