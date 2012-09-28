@@ -30,6 +30,7 @@ m = Map("sensor",translate("d_s_m_settings"), translate("d_s_m_configure"))
 s = m:section(NamedSection, "main", "settings", translate("d_s_g_settings"))
 s:option(Flag, "enable_local_record", translate("d_s_g_local_enable"))
 s:option(DummyValue, "record_file", translate("d_s_g_local_location"))
+s:option(Flag, "transparent_mode", "Enable Transparent Mode")
 
 interval = s:option(Value, "update_interval", translate("d_s_g_interval"))
 s.default = 60
