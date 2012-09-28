@@ -38,6 +38,7 @@ end
 local IoT_ENABLE = sensor.IoT.enabled
 local MIN_UPDATE_INTERVAL = tonumber(sensor.main.update_interval)   -- Pachube update interval. unit: Second.
 local update_command
+local TRANSPARENT = sensor.main.transparent_mode   -- TRANSPARENT mode , forward all data receive from UART port without processing
 
 if IoT_ENABLE == "1" then
 	if sensor.IoT.update_url  then
@@ -68,6 +69,9 @@ local RECORD_FILE_SIZE = tonumber(sensor.main.record_file_size)						-- local re
 
 function update_datastreams (raw_string)					-- update datastreams
 	local new_data_flag = 0
+	if TRANSPARENT == "1" then      -- we don't do data validity in TRANSPARENT mode
+		return 1
+	end
 	for  k,v in pairs(datastreams) do
 		_,_,value = string.find(raw_string,'<'..k..'>(%-*%d+%.*%d*)')     -- data format: <datastream_id>value .. .. 
 		if value then
@@ -94,20 +98,25 @@ while 1 do
 	end
 	if update_datastreams(line) > 0 and (os.time()-old_time) >= MIN_UPDATE_INTERVAL then	
 		local d = os.date("%c")
-		for k,v in pairs(datastreams) do 
-			if v~="null" then 	
-				if csv_string == nil then
-					csv_string = k .. ',' ..v
-				else
-					csv_string = csv_string .. '\r' .. k .. ',' ..v
+		if TRANSPARENT == "1" then
+			csv_string=line
+			d = d .."   "..csv_string
+		else
+			for k,v in pairs(datastreams) do 
+				if v~="null" then 	
+					if csv_string == nil then
+						csv_string = k .. ',' ..v
+					else
+						csv_string = csv_string .. '\r' .. k .. ',' ..v
+					end
+					if LOCAL_RECORD_ENABLE == "1" then 		-- data to be record to local file
+						d = d .." "..k..":"..v
+					end
+					datastreams[k] = "null"			--clear datastreams buffer
 				end
-				if LOCAL_RECORD_ENABLE == "1" then 		-- data to be record to local file
-					d = d .." "..k..":"..v
-				end
-				datastreams[k] = "null"			--clear datastreams buffer
 			end
+			csv_string = '\"' .. csv_string .. '\"'
 		end
-		csv_string = '\"' .. csv_string .. '\"'
 		if IoT_ENABLE == "1" then					--update pachube feeds
 			local update_command_final = string.gsub(update_command,'%[SENSOR_DATA%]',csv_string)
 			os.execute(update_command_final)			--update feeds
@@ -123,7 +132,7 @@ while 1 do
 					f:close()
 				end
 			end
-			os.execute("echo "..d .. " >> " .. LOCAL_RECORD_FILE)	
+			os.execute("echo '"..d .. "' >> " .. LOCAL_RECORD_FILE)	
 		end
 		csv_string = nil
 		old_time = os.time()
