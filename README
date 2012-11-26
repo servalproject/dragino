@@ -1,0 +1,4 @@
+This is the build tree for OpenWRT on the Dragino, including
+the Serval Daemon (servald aka serval-dna), and appropriate
+default configuration for running the dragino as a mesh
+helper device.
