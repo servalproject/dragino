@@ -1,17 +1,36 @@
-config wifi-device  wifi0
-        option type        atheros
-        option channel     auto
-	option mode        11bg
-        option diversity   0
-        option txantenna   1
-        option rxantenna   1
-        option disabled    0
+config wifi-device wifi0                              
+        option type       atheros                     
+        option channel    6                           
+        option agmode     11bg                        
+        option diversity  0                           
+        option rxantenna  1                           
+        option txantenna  1                           
+        option disabled    0                          
+                                                      
+config wifi-iface mesh                                
+        option device   wifi0                         
+        option ssid     mesh.servalproject.org        
+        option network  mesh                          
+        option mode     ahdemo                        
+        option bssid    02:ca:ff:dd:ca:ce             
+        option bgscan   0                             
+                                                      
+config wifi-iface public                      
+        option device     wifi0               
+        option network    public              
+        option mode       ap                  
+        option isolate    0                   
+        option ssid       public.servalproject.org
+        option hidden     0                       
+        option encryption none                    
+                                                  
+config wifi-iface private                         
+        option device     wifi0                   
+        option network    servalproject.org       
+        option mode       ap                      
+        option isolate    0                       
+        option ssid       private.servalproject.org
+        option hidden     0                        
+        option encryption psk2                     
+        option key        private     
 
-config wifi-iface
-        option device      wifi0
-        option network     wan
-        option mode        sta
-        option nosbeacon   1
-        option hidden      0
-        option encryption  wep
-        option key         4ae56b7820f6b6b3cba78da46b
