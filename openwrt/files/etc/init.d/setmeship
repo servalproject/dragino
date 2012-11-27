@@ -1,0 +1,42 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=39
+
+boot() {
+  cat <<EOF >/tmp/setupinterface
+local configfile = "/etc/config/network"
+
+local f = assert(io.open(configfile,"r"))
+ok=0
+while true do
+        local s = f:read()
+        if not s then break end
+        if string.find(s,"option ipaddr 2") then
+                ok=1
+        end
+end
+if ok > 0 then do return end end
+
+local inp = assert(io.open("/dev/random", "rb"))
+local data = inp:read(4)
+
+local orig = assert(io.open("/rom/etc/config/network","rb"))
+
+local file = io.open(configfile,"w");
+while true do
+      local bytes = orig:read()
+      if not bytes then break end
+      file:write(string.format("%s\n",bytes))
+end
+file:write("\nconfig interface mesh\n");
+file:write("    option ifname ath0\n");
+file:write("    option proto    static\n");
+file:write(string.format("      option ipaddr %d.%d.%d.%d\n",28+data:byte(1)%2,data:byte(2),data:byte(3),data:byte(4)));
+file:write("    option netmask 254.0.0.0\n");
+file:close();
+EOF
+  chmod 755 /tmp/setupinterface
+  /tmp/setupinterface
+  rm /tmp/setupinterface
+}
