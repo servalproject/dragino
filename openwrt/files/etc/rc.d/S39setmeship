@@ -3,7 +3,7 @@
 
 START=39
 
-boot() {
+start() {
   cat <<EOF >/tmp/setupinterface
 local configfile = "/etc/config/network"
 
@@ -37,6 +37,6 @@ file:write("    option netmask 254.0.0.0\n");
 file:close();
 EOF
   chmod 755 /tmp/setupinterface
-  /tmp/setupinterface
+  lua /tmp/setupinterface
   rm /tmp/setupinterface
 }
