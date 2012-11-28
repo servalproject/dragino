@@ -23,6 +23,7 @@ config dhcp
         option start    50
         option limit    250
         option leasetime        1h
+	option nameserver 	192.168.100.1
 
 config dhcp
         option interface        private
