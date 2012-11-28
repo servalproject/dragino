@@ -40,14 +40,5 @@ EOF
   lua /tmp/setupinterface
   rm /tmp/setupinterface
 
-  
-  # Start servald
-  export SERVALINSTANCE_PATH=/etc/serval
-  mkdir -p $SERVALINSTANCE_PATH
-  servald start
 }
 
-stop() {
-  export SERVALINSTANCE_PATH=/etc/serval
-  servald stop
-}
