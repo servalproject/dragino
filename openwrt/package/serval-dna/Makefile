@@ -7,7 +7,7 @@ PKG_RELEASE=$(PKG_SOURCE_VERSION)
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/servalproject/serval-dna.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=c4b90a108b9f311545719e57dc322b33aed20f38
+PKG_SOURCE_VERSION:=1a12f81474bbf165ce5d3db7a324b7a063b64035
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_FIXUP:=autoreconf
@@ -31,6 +31,10 @@ endef
 define Package/serval-dna/install
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/servald $(1)/usr/bin
+endef
+
+define Build/Configure
+  $(call Build/Configure/Default,--enable-instance-path=/etc/serval)
 endef
 
 $(eval $(call BuildPackage,serval-dna))
